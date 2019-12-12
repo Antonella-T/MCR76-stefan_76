@@ -1,0 +1,38 @@
+
+
+<script>
+
+// Create a object with details for first marker
+var wbMarker = {
+	colour: "Blue",
+	size: "small",
+	value: 2.99,
+	weight: "light"
+};
+
+// Create a array with the object as an element
+var arrayOfObjects = [wbMarker];
+
+console.log(arrayOfObjects);
+
+// Change values for object properties
+wbMarker = {
+	colour: "Orange",
+	size: "smallest",
+	value: 3.15,
+	weight: "light"
+};
+
+// Add the modified object to our array;
+arrayOfObjects.push(wbMarker);
+
+//Display the first element (Object) from our array
+console.log(arrayOfObjects[0])
+
+//Display the value property from first element (Object) from our array
+console.log(arrayOfObjects[0].value)
+console.log(arrayOfObjects[0]['value'])
+
+
+
+</script>

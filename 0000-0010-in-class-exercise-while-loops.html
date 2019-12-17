@@ -1,0 +1,65 @@
+
+
+<script>
+
+// create a while loop 
+// that loops for so many times, e.g. 6 times
+
+// initialize counter (increment value)
+var i = 0;
+
+while (i < 6) {
+  // place code to be executed at each loop iteration
+  // inside these curly braces, e.g. log the value of i
+  console.log(i);
+  i++;
+  }
+
+
+
+
+
+// create a do while loop 
+// that loops for so many times, e.g. 6 times
+
+// initialize counter (increment value)
+var i = 0;
+
+do {
+  // place code to be executed at each loop iteration
+  // inside these curly braces, e.g. log the value of i
+  console.log(i);
+  i++;
+  }
+while (i < 6);
+
+
+
+
+
+
+
+// A while loop to check the confirm() return value
+
+// Code below will not show the confirm pop-up as
+// the response value is not defined.
+
+var response;
+
+while(response == true) {
+  response = console.log(confirm('Click OK'));
+  }
+
+
+// Code below will show the confirm pop-up as
+// long as the OK button is selected.
+
+var response;
+
+do {
+  response = confirm('Click OK');
+  }
+while(response == true);
+
+
+</script>

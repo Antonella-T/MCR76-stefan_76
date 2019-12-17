@@ -1,0 +1,53 @@
+
+
+<script>
+
+// Define number of lines to draw tree shape
+var lines = 20;
+
+// Define the character used for drawing
+var character = 'A';
+
+// Define the characters use to draw the first line
+var characters = character;
+
+// Define a variable for the leading spaces
+var spaces;
+
+// Define iteration variable for outer (first) loop
+var i;
+
+// Define iteration variable for inner (second / nested) loop
+var j;
+
+// Outer loop for drawing lines
+for (i = 0; i < lines; i++) {
+  
+  // Assign empty string to spaces (clear spaces from previous line)
+  spaces = '';
+  
+  // Inner loop for creating leading spaces
+  // Spaces are always 1 character less then line number, e.g.:
+  //   First line of a four line shape would have three spaces:
+  //     (lines = 4) and (i = 0) therefore 4-0-1 = 3 spaces
+  //   Second line of a four line shape would have two spaces:
+  //     (lines = 4) and (i = 1) therefore 4-1-1 = 2 spaces
+  //   Third line of a four line shape would have one space:
+  //     (lines = 4) and (i = 2) therefore 4-2-1 = 1 space
+  //   Fourth line of a four line shape would have no space:
+  //     (lines = 4) and (i = 3) therefore 4-3-1 = 0 spaces
+  for (j = 0; j < lines - i - 1; j++) {
+    // add one space to spaces at each iteration for j
+    spaces = spaces + ' ';
+    }
+
+  // draw (log) leading spaces followed by characters
+  console.log(spaces + characters);
+  
+  // add two extra character to characters for each line
+  characters = characters + character + character;
+}
+
+
+
+</script>

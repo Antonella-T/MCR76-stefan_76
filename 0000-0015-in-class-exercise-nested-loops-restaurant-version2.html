@@ -1,0 +1,35 @@
+
+
+<script>
+// Take a restaurant order for 3 courses
+
+var dishes = [];
+var dish;
+
+var persons = prompt('Enter number of persons');
+
+// Loop for each person
+for (var i = 0; i < persons; i++) {
+console.log('Person: ' + (i + 1));
+
+  // Loop for each course
+  for (var j = 0; j < 3; j++) {
+    dish = prompt('Person ' + (i + 1) + ' Course ' + (j + 1));
+	dishes.push(dish);
+	}
+  } 
+
+console.log(dishes);
+
+for (var i = 2; i < (persons * 3); i = i + 3) {
+  console.log('Order for person:' + ((i + 1) / 3) );
+  console.log('Dish 1: ' + dishes[i - 2]);
+  console.log('Dish 2: ' + dishes[i - 1]);
+  console.log('Dish 3: ' + dishes[i]);
+  }
+
+
+
+
+
+</script>

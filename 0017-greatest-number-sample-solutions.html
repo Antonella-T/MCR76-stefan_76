@@ -1,0 +1,119 @@
+<!--
+2. exercise for 9th Jan 2020
+============================
+This morning we will practice:
+ a) conditional statements,
+ b) documenting program-flows, and
+ c) JS syntax.
+File:  0017-greatest-number.html
+Time:  60 minutes allowance
+Level: comfortable
+Create a script that will find the greatest number of three numbers. The script will
+prompt to enter three numbers and display each entered number in the console. 
+The script will compare the three numbers and display the largest number that was 
+entered.
+ 1. Create a flowchart in draw.io for above coding problem and upload your flowchart
+    as a single A4 page PDF. Ensure that the uploaded file name start with '0017-'.
+    
+ 2. Update this file and create a script element to include your own script for above
+    coding problem. 
+    
+ 3. Upload the completed files to your GitHub repository.
+    Ensure that all uploaded file names for this exercise start with '0017-'
+-->
+
+
+
+<script>
+// Artur's approach
+// ================
+
+// Assign each number to a variable
+var num1 = 13;
+var num2 = 20;
+var num3 = 5;
+
+// Compare 1. number with 2. number
+if (num1 < num2) {
+  // 2. number is larger than the 1. number: 
+  // Assign value of 2. number to 1. number  
+  num1 = num2;
+}
+
+// Compare 1. number with 3. number
+if (num1 < num3) {
+  // 3. number is larger than the 1. number: 
+  // Assign value of 3. number to 1. number  
+  num1 = num3;
+}
+
+console.log('Version 1: The largest number = ' + num1)
+
+
+</script>
+
+
+
+
+
+<script>
+// Artur's approach WITH Rinat's input
+// ===================================
+// 
+// This version will retain all original number values
+
+// Assign each number to a variable
+var num1 = 13;
+var num2 = 20;
+var num3 = 5;
+var largestNum = num1;
+
+// Compare largestNum with 2. number
+if (largestNum < num2) {
+  // 2. number is larger than the largestNum: 
+  // Assign value of 2. number to largestNum  
+  largestNum = num2;
+}
+
+// Compare largestNum with 3. number
+if (largestNum < num3) {
+  // 3. number is larger than the largestNum: 
+  // Assign value of 3. number to largestNum 
+  largestNum = num3;
+}
+
+console.log('Version 2: The largest number = ' + largestNum)
+
+
+</script>
+
+
+
+
+
+<script>
+// Class approach WITH a loop
+// ==========================
+// 
+// This version (3) will retain all original number values
+
+// Store each number in an array
+var numArray = [13, 20, 5, 27, 55, -72];
+
+// Define a variable to hold the largest number
+var largestNum = numArray[0];
+
+// Loop through array and compare each array element with largestNum
+for (var i = 0; i < numArray.length; i++) {
+  if (numArray[i] > largestNum) {
+    // Array element is larger than the largestNum:
+    // Assign value of array element to largestNum
+    largestNum = numArray[i];
+	}
+  }
+
+console.log('Version 3: The largest number = ' + largestNum)
+
+
+</script>
+

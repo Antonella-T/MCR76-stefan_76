@@ -1,5 +1,9 @@
 <?php
 
+$myRoot = substr($_SERVER['DOCUMENT_ROOT'], 0, strpos($_SERVER['DOCUMENT_ROOT'], 'public_html'));
+echo '<script>console.log(\'My Root: ' . $myRoot . '\');</script>';
+
+
 $html ='<div id="wrapper"><h3>Test</h3></div>';
 
 if (get_client_ip() == 'your IP address' || get_client_ip() == '46.7.62.182-') {

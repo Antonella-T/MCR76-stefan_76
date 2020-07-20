@@ -4,7 +4,7 @@
     "myNickName": "XYZ-Anything",
     "myRoot": "/home/XYZ/",
     "stefansIp": "46.7.62.182",
-    "dbServer" = "localhost",
-    "dbUserName" = "your Database Username",
-    "dbPassWord" = "your Database Password"
+    "dbServer": "localhost",
+    "dbUserName": "your Database Username",
+    "dbPassWord": "your Database Password"
 }

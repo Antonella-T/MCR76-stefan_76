@@ -1,7 +1,10 @@
 {
-	"myIp": "Enter Your Own IP",
-	"myDomain": "Enter Your Domain, e.g. stefan-mcr.com",
-	"myNickName": "XYZ-Anything",
-	"myRoot": "/home/XYZ/",
-	"stefansIp": "46.7.62.182"
+    "myIp": "Enter Your Own IP",
+    "myDomain": "Enter Your Domain, e.g. mycourseresource.com/mcr76/",
+    "myNickName": "XYZ-Anything",
+    "myRoot": "/home/XYZ/",
+    "stefansIp": "46.7.62.182",
+    "dbServer" = "localhost",
+    "dbUserName" = "your Database Username",
+    "dbPassWord" = "your Database Password"
 }

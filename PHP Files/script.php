@@ -10,6 +10,11 @@
     if (strpos($myPage, '/index.php')) {
       echo '<script>console.log(\'My Root: ' . $myRoot . '\');</script>';
       echo '<script>console.log(\'' . $myPage . ' loaded [HOME]\');</script>';
+      $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord']);
+      if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+      }
+      echo '<script>console.log(\'Connected to DB successfully [DB]\');</script>';
     }
     else if (strpos($myPage, '/.htm')) {
       echo '<script>console.log(\'' . $myPage . ' loaded [HTML]\');</script>';

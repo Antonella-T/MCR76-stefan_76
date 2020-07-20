@@ -5,6 +5,7 @@
     "myRoot": "/home/XYZ/",
     "stefansIp": "46.7.62.182",
     "dbServer": "localhost",
+    "dbName": "your Database Name",
     "dbUserName": "your Database Username",
     "dbPassWord": "your Database Password"
 }

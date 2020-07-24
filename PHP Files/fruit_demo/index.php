@@ -18,6 +18,17 @@
     
     <button id="createDbTable">Create DB Table</button>
     <button id="removeDbTable">Remove DB Table</button><br>    
+
+    <button id="importData">Import JSON Data File</button>
+    <button id="exportData">Export JSON Data File</button><br>
+    <label for="fruit">Fruit:</label><input type="text" id="fruit" value="Banana">
+    <label for="colour">Colour:</label><input type="text" id="colour">
+    <label for="doILike">Like:</label><input type="checkbox" id="doILike" checked="checked">
+    <button id="readDb">Search</button><br>
+
+
+
     
   </div><!-- wrapper end -->
 </body>
+</html>

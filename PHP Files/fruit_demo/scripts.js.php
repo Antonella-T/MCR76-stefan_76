@@ -28,6 +28,41 @@ $(document).ready(function(){
   }
   );
 
+  $('#importData').click(function() {
+    console.log('importData has been clicked!');
+    dataString = JSON.stringify(dataImport);
+    $.post("db.php", {"data": dataString},
+    function(data,status){
+      console.log(data + "\nStatus: " + status);
+    });
+  }
+  );
+
+
+  $('#exportData').click(function() {
+    console.log('exportData has been clicked!');
+    dataString = JSON.stringify(dataExport);
+    $.post("db.php", {"data": dataString},
+    function(data,status){
+      console.log(data + "\nStatus: " + status);
+    });
+  }
+  );
+
+
+  $('#readDb').click(function() {
+    console.log('readDb has been clicked!');
+    dataString = JSON.stringify(readDb());
+    $.post("db.php", {"data": dataString},
+    function(data,status){
+      //console.log(data);
+      console.log(JSON.parse(data), "\nStatus: " + status);
+    });
+  }
+  );
+
+
+
 
 
 });
@@ -69,3 +104,54 @@ var removeDbTable = {"fruits": {"apiKey": apiKey,
             "data": [
                     ]
            }}; 
+
+
+var dataImport = {"fruits": {"apiKey": apiKey,
+            "timeZone": clientTimeZone,
+            "purpose": "ID",
+            "debug": true,
+            "sort": "n/a",
+            "startVal": -1,
+            "pageSize": -1,
+            "data": [{"format": "JSON"}
+                    ]
+           }};
+           
+
+
+var dataExport = {"fruits": {"apiKey": apiKey,
+            "timeZone": clientTimeZone,
+            "purpose": "ED",
+            "debug": true,
+            "sort": "n/a",
+            "startVal": -1,
+            "pageSize": -1,
+            "data": [{"format": "JSON"}
+                    ]
+           }};
+           
+
+
+function readDb() {
+  return {"fruits": {"apiKey": apiKey,
+            "timeZone": clientTimeZone,
+            "purpose": "R",
+            "debug": true,
+            "sort": "fruit ASC",
+            "startVal": -1,
+            "pageSize": -1,
+            "data": [{"colName": "fruit",
+                      "search": $('#fruit').val(),
+                      "strict": false,
+                      "dataType": "String"},
+                     {"colName": "colour",
+                      "search": $('#colour').val(),
+                      "strict": false,
+                      "dataType": "String"},
+                     {"colName": "doILike",
+                      "search": $('#doILike').is(':checked'),
+                      "strict": true,
+                      "dataType": "Boolean"}
+                    ]
+           }};
+}

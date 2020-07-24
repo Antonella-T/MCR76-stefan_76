@@ -1,0 +1,28 @@
+{
+	"fruits": [{
+		"fruit": "Banana",
+		"colour": "yellow",
+		"doILike": true,
+		"popularity": 69
+	}, {
+		"fruit": "Apples",
+		"colour": "red",
+		"doILike": true,
+		"popularity": 69
+	}, {
+		"fruit": "Strawberries",
+		"colour": "red",
+		"doILike": false,
+		"popularity": 62
+	}, {
+		"fruit": "Grapes",
+		"colour": "green",
+		"doILike": false,
+		"popularity": 62
+	}, {
+		"fruit": "Oranges",
+		"colour": "orange",
+		"doILike": true,
+		"popularity": 54
+	}]
+}

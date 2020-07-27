@@ -1,0 +1,3937 @@
+{
+	"Inventory": [{
+		"Title": "The Best of Mrs Beeton's Household Tips",
+		"Author": "Mrs Beeton",
+		"Year": "2006",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "978-0-3043-6828-0"
+	}, {
+		"Title": "Angela's Ashes - A Memoir of a Childhood",
+		"Author": "Frank McCourt",
+		"Year": "1999",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-00-225443-3 "
+	}, {
+		"Title": "'Tis - A Memoir",
+		"Author": "Frank McCourt",
+		"Year": "1999",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-00-257080-7 "
+	}, {
+		"Title": "Artist's Manual",
+		"Author": "Angela Gair, Harper Collins",
+		"Year": "1995",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-00-412557-6 "
+	}, {
+		"Title": "The Collins Paperback English Dictionary",
+		"Author": "William Collins",
+		"Year": "1988",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-00-433140-0 "
+	}, {
+		"Title": "Collins Traveller, Portuguese Phrase Book & Dictionary",
+		"Author": "William Collins & Sons Company Limited",
+		"Year": "1990",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "0-00-435871-6 "
+	}, {
+		"Title": "Spanish Phrase Book and Dictionary",
+		"Author": "Collins",
+		"Year": "1990",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-00-435872-4 "
+	}, {
+		"Title": "The Speckled People",
+		"Author": "Hugo Hamilton",
+		"Year": "2003",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-00-714805-4 "
+	}, {
+		"Title": "Babycalming - Simple Solutions for a Happy Baby",
+		"Author": "Caroline Deacon",
+		"Year": "2004",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-00-715902-1 "
+	}, {
+		"Title": "The New York Art Review",
+		"Author": "Les Krantz",
+		"Year": "1982",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-02-000700-0 "
+	}, {
+		"Title": "Digital Fundamentals - Fifth Edition",
+		"Author": "Thomas L. Floyd",
+		"Year": "1994",
+		"Cat": "Electronic",
+		"Pack": "HB",
+		"ISBN": "0-02-338502-2 "
+	}, {
+		"Title": "Audrey Style",
+		"Author": "Pamela Clarke Keogh",
+		"Year": "1999",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-06-019329-8 "
+	}, {
+		"Title": "Microeconomics - A Modern Approach",
+		"Author": "Andrew Schotter",
+		"Year": "1994",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-06-045768-6 "
+	}, {
+		"Title": "Self-Defeating Behaviours",
+		"Author": "Milton R. Cudney, Robert E. Hardy",
+		"Year": "1993",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-06-250197-6 "
+	}, {
+		"Title": "Design with Microcontrollers",
+		"Author": "John B. Peatman",
+		"Year": "1988",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "0-07-100248-0 "
+	}, {
+		"Title": "Microchip Fabrication",
+		"Author": "Peter Van Zant",
+		"Year": "2000",
+		"Cat": "Electronic",
+		"Pack": "HB",
+		"ISBN": "0-07-135636-3 "
+	}, {
+		"Title": "Beyond Certainty",
+		"Author": "Charles Handy",
+		"Year": "1995",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-09-179153-7 "
+	}, {
+		"Title": "The Elephant and the Flea",
+		"Author": "Charles Handy",
+		"Year": "2001",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-09-179363-7 "
+	}, {
+		"Title": "Anatomy Of Greed - Anatomy Of GRE(nron)E(nron)D",
+		"Author": "Brian Cruver",
+		"Year": "2002",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-09-179528-1 "
+	}, {
+		"Title": "The Hungry Spirit",
+		"Author": "Charles Handy",
+		"Year": "1997",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-09-180168-0 "
+	}, {
+		"Title": "The New Alchemists",
+		"Author": "Charles Handy, Elizabeth Handy",
+		"Year": "1999",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-09-180215-6 "
+	}, {
+		"Title": "Rose Elliot's OXFAM Vegetarian Cooking For Children",
+		"Author": "Rose Elliot",
+		"Year": "1995",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-09-180816-2 "
+	}, {
+		"Title": "An Evil Cradling",
+		"Author": "Brian Keenan",
+		"Year": "1993",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-09-181777-3 "
+	}, {
+		"Title": "Sam the Magic Genie",
+		"Author": "Brian Mayne",
+		"Year": "2003",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-09-188945-6 "
+	}, {
+		"Title": "The Empty Raincoat",
+		"Author": "Charles Handy",
+		"Year": "1995",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-09-930125-3 "
+	}, {
+		"Title": "A Sailing Boat in the Sky",
+		"Author": "Quentin Blake",
+		"Year": "2003",
+		"Cat": "Children",
+		"Pack": "SB",
+		"ISBN": "0-09-943959-X "
+	}, {
+		"Title": "Branded - The Buying And Selling Of Teenagers",
+		"Author": "Alisa Quart",
+		"Year": "2003",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "0-09-945806-3 "
+	}, {
+		"Title": "The Age of Unreason",
+		"Author": "Charles Handy",
+		"Year": "1995",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-09-954831-3 "
+	}, {
+		"Title": "Gods of Management - The Changing Work of Oganisations",
+		"Author": "Charles Handy",
+		"Year": "1995",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-09-954841-0 "
+	}, {
+		"Title": "Feel The Fear And Do It Anyway",
+		"Author": "Susan Jeffers",
+		"Year": "1991",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "0-09-974100-8 "
+	}, {
+		"Title": "Who Moved My Cheese?",
+		"Author": "Dr. Spencer Johnson",
+		"Year": "2002",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "0-09181-697-1 "
+	}, {
+		"Title": "The Shelbourne",
+		"Author": "Elizabeth Bowen",
+		"Year": "2001",
+		"Cat": "History",
+		"Pack": "SB",
+		"ISBN": "0-099-28485-5 "
+	}, {
+		"Title": "Exploring Corporate Strategy",
+		"Author": "Gerry Johnson, Kevan Scholes",
+		"Year": "1999",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-13-080740-0 "
+	}, {
+		"Title": "Marketing - An Introduction",
+		"Author": "Philip Kotler, Gary Armstrong",
+		"Year": "1997",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-13-263120-2 "
+	}, {
+		"Title": "The Essence of Operations Management",
+		"Author": "Terry Hill",
+		"Year": "1993",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-13-284845-7 "
+	}, {
+		"Title": "Take the Lead, Interpersonal Skills for Proj. Manager",
+		"Author": "David Boddy, David Buchanan",
+		"Year": "1992",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-13-812827-8 "
+	}, {
+		"Title": "The Heart of the Matter",
+		"Author": "Graham Greene",
+		"Year": "1978",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-14-001789-5 "
+	}, {
+		"Title": "Bitter Herbs",
+		"Author": "Marga Minco",
+		"Year": "1991",
+		"Cat": "Biography",
+		"Pack": "SB",
+		"ISBN": "0-14-012746-1 "
+	}, {
+		"Title": "Understanding Voluntary Organizations",
+		"Author": "Charles Handy",
+		"Year": "1990",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-14-014338-6 "
+	}, {
+		"Title": "Sinéad - Her Live And Music",
+		"Author": "Jimmy Guterman",
+		"Year": "1991",
+		"Cat": "Biography",
+		"Pack": "SB",
+		"ISBN": "0-14-014735-7 "
+	}, {
+		"Title": "Understanding Organisations",
+		"Author": "Charles Handy",
+		"Year": "1999",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-14-015603-8 "
+	}, {
+		"Title": "Inside Organisations, Twenty-One Ideas for Managers",
+		"Author": "Charles Handy",
+		"Year": "1999",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-14-027510-X "
+	}, {
+		"Title": "The Foods and Wines of Spain",
+		"Author": "Penelope Casas",
+		"Year": "1985",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-14-046818-8 "
+	}, {
+		"Title": "The Great Gatsby",
+		"Author": "F. Scott Fitzgerald",
+		"Year": "1994",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-14-062018-4 "
+	}, {
+		"Title": "Little Women",
+		"Author": "Louisa May Alcott",
+		"Year": "1994",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-14-062119-9 "
+	}, {
+		"Title": "Marketing",
+		"Author": "Marsaili Cameron, Angela Rushton, David Carson",
+		"Year": "1988",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-14-077201-4 "
+	}, {
+		"Title": "The Snowman",
+		"Author": "Raymond Briggs",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "SB",
+		"ISBN": "0-140-50350-1 "
+	}, {
+		"Title": "Stupid White Men",
+		"Author": "Michael Moore",
+		"Year": "2002",
+		"Cat": "Politics",
+		"Pack": "SB",
+		"ISBN": "0-141-01190-4 "
+	}, {
+		"Title": "Anne Frank - The Diary of a Young Girl",
+		"Author": "Otto H. Frank, Mirjam Pressler",
+		"Year": "2002",
+		"Cat": "Biography",
+		"Pack": "SB",
+		"ISBN": "0-141-31518-0 "
+	}, {
+		"Title": "Life of Pi",
+		"Author": "Yann Martel",
+		"Year": "2001",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-15-602732-1 "
+	}, {
+		"Title": "Quick Reference German Dictionary",
+		"Author": "Oxford University Press",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-19-860186-7 "
+	}, {
+		"Title": "The Woman Who Walked Into Doors",
+		"Author": "Roddy Doyle",
+		"Year": "1996",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-224-04272-6 "
+	}, {
+		"Title": "Full Moon",
+		"Author": "Michael Light",
+		"Year": "1999",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-224-05128-8 "
+	}, {
+		"Title": "A Star Called Henry",
+		"Author": "Roddy Doyle",
+		"Year": "1999",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-224-06019-8 "
+	}, {
+		"Title": "The Anatomy School",
+		"Author": "Bernard MacLaverty",
+		"Year": "2001",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-224-06202-6 "
+	}, {
+		"Title": "Rory & Ita",
+		"Author": "Roddy Doyle",
+		"Year": "2002",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-224-06923-3 "
+	}, {
+		"Title": "Oh, Play That Thing",
+		"Author": "Roddy Doyle",
+		"Year": "2004",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-224-07436-9 "
+	}, {
+		"Title": "Paula Spencer",
+		"Author": "Roddy Doyle",
+		"Year": "2006",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-224-07866-6 "
+	}, {
+		"Title": "Software Engineering Mathematics",
+		"Author": "Jim Woodcock, Martin Loomes",
+		"Year": "1991",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-273-02673-9 "
+	}, {
+		"Title": "Model Business Letters",
+		"Author": "L. Gartside, S. Taylor",
+		"Year": "1992",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-273-03799-4 "
+	}, {
+		"Title": "Operations Management",
+		"Author": "Slack, Chambers, Harland, Harrison, Johnston",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-273-62688-4 "
+	}, {
+		"Title": "Financial Times - Corporate Religion",
+		"Author": "Jesper Kunde",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-273-64380-0 "
+	}, {
+		"Title": "Dark and Light - The Story of the Guinness Family",
+		"Author": "Derek Wilson",
+		"Year": "1998",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-297-81718-3 "
+	}, {
+		"Title": "The Unruly Life of Woody Allen",
+		"Author": "Marion Meade",
+		"Year": "2000",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-297-81868-6 "
+	}, {
+		"Title": "New York Living",
+		"Author": "Lisa Lovatt-Smith",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-297-82268-3 "
+	}, {
+		"Title": "Great Irish Houses and Castles",
+		"Author": "Jacqueline O'Brien, Desmond Guinness",
+		"Year": "1993",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-297-83141-0 "
+	}, {
+		"Title": "3 X Abstraction - New Methods of Drawing",
+		"Author": "Catherine de Zegher, Hendel Teicher",
+		"Year": "2006",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-300-10826-5 "
+	}, {
+		"Title": "Victorian Crafts",
+		"Author": "Tracy Marsh",
+		"Year": "1992",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-304-34251-3 "
+	}, {
+		"Title": "Celtic Cross Stitch Samplers",
+		"Author": "Angela Wainwright",
+		"Year": "1997",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-304-34582-2 "
+	}, {
+		"Title": "Never Be Lied To Again",
+		"Author": "David J. Lieberman",
+		"Year": "1998",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "0-312-20428-0 "
+	}, {
+		"Title": "The Mind Gym - Wake Your Mind Up",
+		"Author": "Time Warner Book",
+		"Year": "2005",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-316-72992-2 "
+	}, {
+		"Title": "The Catcher In The Rye",
+		"Author": "J. D. Salinger",
+		"Year": "199X",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-316-76953-3 "
+	}, {
+		"Title": "OZ Clarke's Encyclopedia of Wine",
+		"Author": "Oz Clarke",
+		"Year": "1999",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-316-85157-4 "
+	}, {
+		"Title": "The Golden Age",
+		"Author": "Gore Vidal",
+		"Year": "2000",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-316-85409-3 "
+	}, {
+		"Title": "Portrait Of A Killer, Jack The Ripper - Cased Closed",
+		"Author": "Patricia Cornwell",
+		"Year": "2002",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-316-86159-6 "
+	}, {
+		"Title": "One Hundred Years of Solitude",
+		"Author": "Gabriel García Márquez",
+		"Year": "1978",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-330-25559-2 "
+	}, {
+		"Title": "Sean O'Casey, Three Plays",
+		"Author": "Sean O'Casey",
+		"Year": "1980",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-330-26271-8 "
+	}, {
+		"Title": "The Butcher Boy",
+		"Author": "Patrick McCabe",
+		"Year": "1992",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-330-32358-X "
+	}, {
+		"Title": "The Dead School",
+		"Author": "Patrick McCabe",
+		"Year": "1996",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-330-33945-1 "
+	}, {
+		"Title": "The Story of the Night",
+		"Author": "Colm Tóibín",
+		"Year": "1996",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-330-34017-4 "
+	}, {
+		"Title": "Breakfast on Pluto",
+		"Author": "Patrick McCabe",
+		"Year": "1998",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-330-35293-8 "
+	}, {
+		"Title": "The Tom Peters Semniar, Crazy Times Call for Crazy Organizations",
+		"Author": "Tom Peters",
+		"Year": "1994",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-333-62864-0 "
+	}, {
+		"Title": "The Passionate Eye - The Collected Writing of Suzanne Vega",
+		"Author": "Suzanne Vega",
+		"Year": "2001",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "0-380-97353-7 "
+	}, {
+		"Title": "Teach Yourself Spanish, A Complete Course For Beginner",
+		"Author": "Juan Kattán-Ibarra",
+		"Year": "1991",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "0-340-54322-1 "
+	}, {
+		"Title": "Supernanny Jo Frost",
+		"Author": "Jo Frost",
+		"Year": "2005",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-340-89516-0 "
+	}, {
+		"Title": "The Artist's Manual - Equipment, Material, Techniques",
+		"Author": "Stan Smith, H. F. Ten Holt",
+		"Year": "1980",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-356-19606-2 "
+	}, {
+		"Title": "Skipping Christmas",
+		"Author": "John Grisham",
+		"Year": "2001",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-385-50583-3 "
+	}, {
+		"Title": "Conamara Blues",
+		"Author": "John O'Donohue",
+		"Year": "2000",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "0-385-60151-4 "
+	}, {
+		"Title": "Developing Assertiveness",
+		"Author": "Anni Townend",
+		"Year": "1991",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-415-04464-2 "
+	}, {
+		"Title": "The Orchid Thief",
+		"Author": "Susan Orlean",
+		"Year": "1999",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-434-00783-8 "
+	}, {
+		"Title": "The Name Of The Rose",
+		"Author": "Umberto Eco",
+		"Year": "1996",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-436-20422-3 "
+	}, {
+		"Title": "The Tin Drum",
+		"Author": "Günter Grass",
+		"Year": "1996",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-436-20428-2 "
+	}, {
+		"Title": "Nineteen Eighty-Four",
+		"Author": "George Orwell",
+		"Year": "1999",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-436-41055-9 "
+	}, {
+		"Title": "Reminiscences of a Stock Operator",
+		"Author": "Edwin Lefevre",
+		"Year": "2005",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-471-67876-7 "
+	}, {
+		"Title": "Five Centuries of Keyboard Music",
+		"Author": "John Gillespie",
+		"Year": "1972",
+		"Cat": "Music",
+		"Pack": "SB",
+		"ISBN": "0-486-22855-X "
+	}, {
+		"Title": "Making Wooden Toys",
+		"Author": "James T. Stasio",
+		"Year": "1986",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "0-486-25112-8 "
+	}, {
+		"Title": "Celtic Stencil Designs",
+		"Author": "Co Spinhoven",
+		"Year": "1990",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-486-26427-0 "
+	}, {
+		"Title": "The Thirty-Nine Steps",
+		"Author": "John Buchan",
+		"Year": "1994",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-486-28201-5 "
+	}, {
+		"Title": "Furniture - A Concise History",
+		"Author": "Edward Lucie-Smith",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-500-20172-2 "
+	}, {
+		"Title": "The Body",
+		"Author": "William A. Ewing",
+		"Year": "1995",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-500-27781-8 "
+	}, {
+		"Title": "Eileen Gray - Architect Designer",
+		"Author": "Peter Adam",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-500-28218-8 "
+	}, {
+		"Title": "Eileen Gray - Architect, Designer",
+		"Author": "Peter Adam",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-500-28218-8 "
+	}, {
+		"Title": "XS: Big Ideas, Small Buildings",
+		"Author": "Phyllis Richardson, Lucas Dietrich",
+		"Year": "2002",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-500-34181-8 "
+	}, {
+		"Title": "The Arts And Craft Companion",
+		"Author": "Pamela Todd",
+		"Year": "2004",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-500-51160-8 "
+	}, {
+		"Title": "The Way We Live In The City",
+		"Author": "Stafford Cliff, Gilles De Chabaneix",
+		"Year": "2007",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-500-51336-8 "
+	}, {
+		"Title": "Dubliners, Portrait of the Artist..., Chamber Music",
+		"Author": "James Joyce",
+		"Year": "1992",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-517-08239-X "
+	}, {
+		"Title": "Five Complete Hercule Poirot Novels",
+		"Author": "Agatha Christie",
+		"Year": "1980",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-517-30976-9 "
+	}, {
+		"Title": "The Art Of Electronics",
+		"Author": "Paul Horowitz, Winfield Hill",
+		"Year": "1995",
+		"Cat": "Electronic",
+		"Pack": "HB",
+		"ISBN": "0-521-37095-7 "
+	}, {
+		"Title": "The Art Of Electronics - Student Manual",
+		"Author": "Thomas C. Hayes, Paul Horowitz",
+		"Year": "1995",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "0-521-37709-9-9 "
+	}, {
+		"Title": "Discrete Mathematics",
+		"Author": "Mike Piff",
+		"Year": "1992",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-521-38622-5 "
+	}, {
+		"Title": "How To Mow The Lawn - The Lost Art Of Being A Man",
+		"Author": "Sam Martin",
+		"Year": "2003",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-525-94731-0 "
+	}, {
+		"Title": "Baldrige Award Criteria",
+		"Author": "Mark Graham Brown",
+		"Year": "1999",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-527-76353-5 "
+	}, {
+		"Title": "A Short History of Nearly Everything",
+		"Author": "Bill Bryson",
+		"Year": "2004",
+		"Cat": "History",
+		"Pack": "SB",
+		"ISBN": "0-552-99704-8 "
+	}, {
+		"Title": "The Main Course",
+		"Author": "Susan Hicks",
+		"Year": "1989",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-563-21468-6 "
+	}, {
+		"Title": "The Delia Collection: Chocolate",
+		"Author": "Delia Smith, BBC Books",
+		"Year": "2003",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "0-563-48732-1 "
+	}, {
+		"Title": "Horse's Neck",
+		"Author": "Pete Townshend",
+		"Year": "1985",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "0-571-13541-2 "
+	}, {
+		"Title": "Amrita",
+		"Author": "Banana Yoshimoto",
+		"Year": "1997",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-571-19279-3 "
+	}, {
+		"Title": "Collins Reference English Dictionary",
+		"Author": "Harper Collins Publishers",
+		"Year": "1993",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-583-31407-4 "
+	}, {
+		"Title": "Collins Reference Thesaurus In A-Z Form",
+		"Author": "Harper Collins Publishers",
+		"Year": "1993",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-583-31408-2 "
+	}, {
+		"Title": "Anam Cara - Spiritual Wisdom From The Celtic World",
+		"Author": "John O'Donohue",
+		"Year": "1997",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "0-593-04201-8 "
+	}, {
+		"Title": "Eternal Echoes - Exploring Our Hunger To Belong",
+		"Author": "John O'Donohue",
+		"Year": "1998",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "0-593-04493-2 "
+	}, {
+		"Title": "Devine Beauty - The Invisible Embrace",
+		"Author": "John O'Donohue",
+		"Year": "2003",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "0-593-04610-2 "
+	}, {
+		"Title": "Salads The Year Round",
+		"Author": "Joy Larkcom",
+		"Year": "1980",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-600-38381-4 "
+	}, {
+		"Title": "Wild Flowers",
+		"Author": "Helen L. Pursey",
+		"Year": "1978",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-600-39381-X "
+	}, {
+		"Title": "Hamlyn All Colour Cakes And Baking",
+		"Author": "Hamlyn Publishing",
+		"Year": "1989",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "0-600-56739-7 "
+	}, {
+		"Title": "The Art Of The Celts",
+		"Author": "David Sandison",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-600-59393-2 "
+	}, {
+		"Title": "Pasta Sauces",
+		"Author": "Hamlyn",
+		"Year": "2007",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-600-61699-1 "
+	}, {
+		"Title": "Vegetarian Thai",
+		"Author": "Jackum Brown",
+		"Year": "2000",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-6006-0142-0 "
+	}, {
+		"Title": "First Course in Formal Logic & Applica.in Comp Science",
+		"Author": "R.D. Dowsing, V.J. Rayward-Smith, C.D. Walter",
+		"Year": "1994",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-632-01308-7 "
+	}, {
+		"Title": "Workmanship Standards Manual - QC - Second Edition",
+		"Author": "Ray Skipp",
+		"Year": "1989",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "0-632-02554-9 "
+	}, {
+		"Title": "Sams Teach Yourself Excel 97",
+		"Author": "Jennifer Fulton",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-672-31326-X "
+	}, {
+		"Title": "Little Red's Christmas Story",
+		"Author": "Sarah Ferguson",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "HB",
+		"ISBN": "0-689-86072-2 "
+	}, {
+		"Title": "Wood, Large Furniture You Can Make - Better Homes & ..",
+		"Author": "Meredith Books",
+		"Year": "1991",
+		"Cat": "Woodwork",
+		"Pack": "HB",
+		"ISBN": "0-696-01940-X "
+	}, {
+		"Title": "Wood, Country Woodcrafts You Can Make",
+		"Author": "Better Homes and Gardens",
+		"Year": "1992",
+		"Cat": "Woodwork",
+		"Pack": "HB",
+		"ISBN": "0-696-01941-8 "
+	}, {
+		"Title": "Getting the Job You Want",
+		"Author": "Howard Dowding, Sheila Boyce",
+		"Year": "1988",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-7063-6492-9 "
+	}, {
+		"Title": "Muckross House Killarney",
+		"Author": "Dúchas, The heritage Service",
+		"Year": "1998",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "0-7076-5094-1 "
+	}, {
+		"Title": "The Joy of Christmas",
+		"Author": "Denes Agay",
+		"Year": "1972",
+		"Cat": "Music",
+		"Pack": "SB",
+		"ISBN": "0-7119-0118-X "
+	}, {
+		"Title": "Home Piano Library - ROCK'N'ROLL - Volume Nine",
+		"Author": "Peter Evans, Wise Publications",
+		"Year": "1984",
+		"Cat": "Music",
+		"Pack": "SB",
+		"ISBN": "0-7119-0518-5 "
+	}, {
+		"Title": "Tunes You've Always Wanted To Play",
+		"Author": "Arranged by Carol Barratt",
+		"Year": "1990",
+		"Cat": "Music",
+		"Pack": "SB",
+		"ISBN": "0-7119-1932-1 "
+	}, {
+		"Title": "The Stanley Book Of Woodwork",
+		"Author": "Mark Finney",
+		"Year": "1994",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "0-7134-7480-7 "
+	}, {
+		"Title": "Inside New York",
+		"Author": "Joe Friedman, Richard Berenholtz",
+		"Year": "1992",
+		"Cat": "Travel",
+		"Pack": "HB",
+		"ISBN": "0-7148-2630-8 "
+	}, {
+		"Title": "The Story of Art",
+		"Author": "E.H. Gombrich",
+		"Year": "1995",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7148-3355-X "
+	}, {
+		"Title": "Ilya Kabakov",
+		"Author": "Boris Groys, David A. Ross, Iwona Blazwick",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-7148-3797-0 "
+	}, {
+		"Title": "The Photography Book",
+		"Author": "Phaidon Press Ltd",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-7148-3937-X "
+	}, {
+		"Title": "Blink. 100 Photographers, 010 Curators, 010 Writers",
+		"Author": "Antonia Carver",
+		"Year": "2002",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-7148-4199-4 "
+	}, {
+		"Title": "The Herb Garden - Month by Month",
+		"Author": "Barbara Segall",
+		"Year": "1998",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-7153-0060-1 "
+	}, {
+		"Title": "Baskets and Basketry",
+		"Author": "Dorothy Wright",
+		"Year": "1974",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7153-5472-8 "
+	}, {
+		"Title": "Book-Keeping, The Right Way",
+		"Author": "John G. Whyte-Venables",
+		"Year": "1985",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-7160-0710-X "
+	}, {
+		"Title": "Mathematical Structures For Computer Science",
+		"Author": "Judith L. Gersting",
+		"Year": "1993",
+		"Cat": "IT",
+		"Pack": "HB",
+		"ISBN": "0-7167-8259-6 "
+	}, {
+		"Title": "Ireland Guide",
+		"Author": "Bord Fáilte",
+		"Year": "1993",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "0-7171-1976-9 "
+	}, {
+		"Title": "Dublin Tenement Life - An Oral History",
+		"Author": "Kevin C. Kearns",
+		"Year": "1994",
+		"Cat": "History",
+		"Pack": "HB",
+		"ISBN": "0-7171-2178-X "
+	}, {
+		"Title": "The Irish Herb Basket",
+		"Author": "Hazel Evans, Gloria Nichol",
+		"Year": "1996",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-7171-2394-4 "
+	}, {
+		"Title": "Dublin Pub Life & Lore - An Oral History",
+		"Author": "Kevin C. Kearns",
+		"Year": "1996",
+		"Cat": "History",
+		"Pack": "HB",
+		"ISBN": "0-7171-2449-5 "
+	}, {
+		"Title": "Dublin Voices - An Oral Folk History",
+		"Author": "Kevin C. Kearns",
+		"Year": "1998",
+		"Cat": "History",
+		"Pack": "HB",
+		"ISBN": "0-7171-2650-1 "
+	}, {
+		"Title": "Treasures of the National Museum of Ireland",
+		"Author": "Patrick F. Wallace & Raghnall Ó Floinn",
+		"Year": "2002",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7171-2829-6 "
+	}, {
+		"Title": "The Encyclopaedia of Ireland",
+		"Author": "Brian Lalor",
+		"Year": "2003",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-7171-3000-2 "
+	}, {
+		"Title": "Nature Watch",
+		"Author": "Julian Pettifer, Robin Brown",
+		"Year": "1981",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-7181-1994-0 "
+	}, {
+		"Title": "How to Win at Aptitude Tests",
+		"Author": "Paul Pelshenke",
+		"Year": "1993",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7225-2814-0 "
+	}, {
+		"Title": "L.J. Harvey & His School",
+		"Author": "Queensland Art Gallery",
+		"Year": "1983",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7242-1248-5 "
+	}, {
+		"Title": "MySQL",
+		"Author": "Paul DuBois",
+		"Year": "2001",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-7357-0921-1 "
+	}, {
+		"Title": "The Wind in the Willows",
+		"Author": "Kenneth Grahame",
+		"Year": "2000",
+		"Cat": "Children",
+		"Pack": "HB",
+		"ISBN": "0-7445-7553-2 "
+	}, {
+		"Title": "This Is Not A Novel",
+		"Author": "Jennifer Johnston",
+		"Year": "2003",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-7472-6946-7 "
+	}, {
+		"Title": "Friendship - A Celebration Of Humanity",
+		"Author": "MILK, Prologue by Maeve Binchy",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7472-7305-7 "
+	}, {
+		"Title": "The Bloomsbury Book of Love Poems",
+		"Author": "Benjamin Zephaniah",
+		"Year": "1999",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "0-7475-4417-4 "
+	}, {
+		"Title": "The Ash Garden",
+		"Author": "Dennis Bock",
+		"Year": "2001",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-7475-5352-1 "
+	}, {
+		"Title": "South With Endurance - Shackleton's Antarctic Exped.",
+		"Author": "Frank Hurley",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7475-5879-5 "
+	}, {
+		"Title": "OU: The Good Study Guide",
+		"Author": "Open University",
+		"Year": "2001",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-7492-0044-8 "
+	}, {
+		"Title": "OU, M880: Software Engineering Topics Folder",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2002",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-7492-5513-7 "
+	}, {
+		"Title": "OU, M880: Software Engineering Work Folder",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2002",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-7492-5514-5 "
+	}, {
+		"Title": "OU, M865: Project Management, Unit 4",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7492-6263-X "
+	}, {
+		"Title": "OU, M865: Project Management, Unit 1",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7492-6292-3 "
+	}, {
+		"Title": "OU, M865: Project Management, Unit 2",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7492-7358-5 "
+	}, {
+		"Title": "OU, M865: Project Management, Unit 3",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7492-7359-3 "
+	}, {
+		"Title": "OU, M865: Project Management, Unit 5 & 6",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7492-7360-7 "
+	}, {
+		"Title": "OU, M865: Project Management, Unit 7",
+		"Author": "Faculty of Mathematics & Computing",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7492-9337-3 "
+	}, {
+		"Title": "My Left Foot",
+		"Author": "Christy Brown",
+		"Year": "1990",
+		"Cat": "Biography",
+		"Pack": "SB",
+		"ISBN": "0-7493-0101-5 "
+	}, {
+		"Title": "How to Win Friends and Influence People",
+		"Author": "Dale Carnegie",
+		"Year": "1998",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "0-7493-0784-6 "
+	}, {
+		"Title": "The Snapper",
+		"Author": "Roddy Doyle",
+		"Year": "1994",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-7493-3614-5 "
+	}, {
+		"Title": "Paddy Clarke Ha Ha Ha",
+		"Author": "Roddy Doyle",
+		"Year": "1995",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-7493-9735-7 "
+	}, {
+		"Title": "The Commitments",
+		"Author": "Roddy Doyle",
+		"Year": "1991",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-7493-9801-9 "
+	}, {
+		"Title": "The Van",
+		"Author": "Roddy Doyle",
+		"Year": "1992",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-7493-9990-2 "
+	}, {
+		"Title": "AA Explorer Scotland, Map & Guide Pack",
+		"Author": "Gilbert Summers",
+		"Year": "1999",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "0-7495-1891-X "
+	}, {
+		"Title": "OP-Amp & OTA Circuits Manual",
+		"Author": "R. M. Marston",
+		"Year": "1993",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "0-7506-1855-8 "
+	}, {
+		"Title": "Pests & Diseases - The Royal Horticultural Society",
+		"Author": "Pippa Greenwood, Andrea Halstead",
+		"Year": "1997",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-7513-0366-6 "
+	}, {
+		"Title": "The Complete Book Of Self-Sufficiency",
+		"Author": "John Seymour",
+		"Year": "1996",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-7513-0426-3 "
+	}, {
+		"Title": "Essential Managers - Communicate Clearly",
+		"Author": "Robert Heller",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7513-0630-4 "
+	}, {
+		"Title": "Essential Managers - Do It Now!",
+		"Author": "Andy Bruce, Ken Langdon",
+		"Year": "2001",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-7513-1288-6 "
+	}, {
+		"Title": "When Your Child is Ill - A Home Guide For Parents",
+		"Author": "Dr. Bernard Valman",
+		"Year": "2002",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-7513-3974-1 "
+	}, {
+		"Title": "Andy Warhol: The Life And Works Of",
+		"Author": "Trewin Copplestone",
+		"Year": "1995",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-7525-1180-7 "
+	}, {
+		"Title": "The Encylopedia of Wild Flowers",
+		"Author": "John Akeroyd",
+		"Year": "2000",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-75254-160-9 "
+	}, {
+		"Title": "Practical Baking Cooking",
+		"Author": "Parragon",
+		"Year": "2000",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "0-75254-883-2 "
+	}, {
+		"Title": "In Praise of Slow - Challenging the Cult of Speed",
+		"Author": "Carl Honoré",
+		"Year": "2005",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-75286-414-9 "
+	}, {
+		"Title": "Phoenix Irish Short Stories",
+		"Author": "David Marcus",
+		"Year": "1999",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "0-75380-744-0 "
+	}, {
+		"Title": "Christmas Please - One Hundred Poems for the Festive..",
+		"Author": "Orion Paperback",
+		"Year": "2003",
+		"Cat": "Poetry",
+		"Pack": "SB",
+		"ISBN": "0-75381-718-7 "
+	}, {
+		"Title": "The Complete Book of Practical Gardening",
+		"Author": "Peter McHoy, Susan Berry, Steve Bradley",
+		"Year": "1999",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-7548-0163-2 "
+	}, {
+		"Title": "Encyclopedia of Vegetables and Vegetarian Cooking",
+		"Author": "Roz Denny, Christine Ingram",
+		"Year": "1999",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "0-7548-0294-9 "
+	}, {
+		"Title": "Your First Year In Network Marketing",
+		"Author": "Mark Yarnell, Rene Reid Yarnell",
+		"Year": "1998",
+		"Cat": "Network M.",
+		"Pack": "SB",
+		"ISBN": "0-7615-1219-5 "
+	}, {
+		"Title": "SQL Server DB Design Study Guide Exam 70-029",
+		"Author": "Kevin Hough",
+		"Year": "1999",
+		"Cat": "IT",
+		"Pack": "HB",
+		"ISBN": "0-7821-2586-7 "
+	}, {
+		"Title": "Perl, CGI, and JavaScript Complete",
+		"Author": "Joel Fugazzotto",
+		"Year": "2003",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-7821-4213-3 "
+	}, {
+		"Title": "Raising Positive Kids in a Negative World",
+		"Author": "Zig Ziglar",
+		"Year": "2002",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-7852-6478-7 "
+	}, {
+		"Title": "The Improvement Guide",
+		"Author": "Compaq",
+		"Year": "1996",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-7879-0257-8 "
+	}, {
+		"Title": "The Five Temptations of a CEO",
+		"Author": "Patrick Lencioni",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-7879-4433-5 "
+	}, {
+		"Title": "Waiting For The Mountain To Move - Reflections On Work and Life",
+		"Author": "Charles Handy",
+		"Year": "1999",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-7879-4659-1 "
+	}, {
+		"Title": "Business Masterminds: Charles Handy",
+		"Author": "Robert Heller",
+		"Year": "2001",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "0-7894-7158-2 "
+	}, {
+		"Title": "Mars - National Geographic Society",
+		"Author": "Paul Raeburn",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-7922-7373-7 "
+	}, {
+		"Title": "Wood-Fired Stoneware and Porcelain",
+		"Author": "Jack Troy",
+		"Year": "1995",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-8019-8484-X "
+	}, {
+		"Title": "A Cup of Coffee",
+		"Author": "Norman Kolpas",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "0-8021-1476-8 "
+	}, {
+		"Title": "Chip Carving Patterns",
+		"Author": "Wayne Barton",
+		"Year": "1990",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "0-8069-5782-4 "
+	}, {
+		"Title": "Software Engineering, IEEE Computer Society Press",
+		"Author": "Merlin Dorfman, Richard H. Taylor, Barry W. Boehm",
+		"Year": "2000",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "0-8186-7609-4 "
+	}, {
+		"Title": "Spanish Design and Architecture",
+		"Author": "Emma Dent Coad",
+		"Year": "1990",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-8478-1173-5 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 1",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 2",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 3",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 4",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 5",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 6",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 7",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 8",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 9",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Encyclopædia of Visual Art - Volume 10",
+		"Author": "Britannica, Encyclopædia Visual Art",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-85229-187-6 "
+	}, {
+		"Title": "The Great Conversation",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Syntopicon - An Index To The Great Ideas I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Syntopicon - An Index To The Great Ideas II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Iliad and The Odyssey of Homer",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Aeschylus, Sophocles, Euripides, Aristophanes",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Herodotus, Thucydides",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Dialogues Of Plato, The Seventh Letter",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Works of Aristotle - Volume I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Works of Aristotle - Volume II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Hippocratic Writings, Galen - On The Natural Faculties",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Euclid, Archimedes, Nicomachus",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Lucretius, Epictetus, Marcus Aurelius, Plotinus",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Virgil - The Eclogues, The Georgis, The Aeneid",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Plutarch - The Lives Of The Noble Grecian And Romans",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Tacitus - The Annals And The Histories",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Ptolemy, Copernicus, Kepler",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Saint Augustine",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Saint Thomas Aquinas - The Summa Theologica, Volume I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Saint Thomas Aquinas - The Summa Theologica, Volume II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Dante Alighieri, Geoffrey Chaucer",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "John Calvin - Institutes Of The Christian Religion",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Nicolo Machiavelli, Thomas Hobbes",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Francois Rabelais - Gargantua And Pantagruel",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Desiderius Erasmus, Michel Eyquem De Montaigne",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "William Shakespeare - The Plays And Sonnets, Volume I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "William Shakespeare - The Plays And Sonnets, Volume II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "William Gilbert, Galileo Galilei, William Harvey",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Miguel De Cervantes - Don Quixote De La Mancha",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Sir Francis Bacon, René Descartes, Benedict De Spinoza",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "John Milton",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Blaise Pascal",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1994",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Moliére, Jean Racine",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Sir Isaac Newton, Christiaan Huygens",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "John Locke, George Berkeley, David Hume",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Jonathan Swift, Voltaire, Denis Diderot",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Charles De Secondat, Jean Jacques Rousseau",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Adam Smith",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Edward Gibbon - The Decline & Fall Of T. R. Empire I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Edward Gibbon - The Decline & Fall Of T. R. Empire II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Immanuel Kant",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "American State Papers, The Federalist, JohnStuart Mill",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "James Boswell - Life Of Samuel Johnson, LL. D.",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Antoine Laurent Lavoisier, Michael Faraday",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Georg W. F. Hegel, Soren Kierkegaard, F. Nietzsche",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Alexis De Tocqueville - Democracy In America",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Johann Wolfgang von Goethe, Honoré De Balzac",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Jane Austen - Emma, George Eliot - Middlemarch",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Charles Dickens - Little Dorrit",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Herman Melville - Moby Dick, Mark Twain - Huckle' Finn",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Charles Darwin",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Karl Marx: Capital",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Leo Tolstoy - War And Peace",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "Dostoevsky, Henrik Ibsen",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "William James - The Principles Of Psychology",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The Major Works Of Sigmund Freud",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "20th Century Philosophy And Religion",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "20th Century Natural Science",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "20th Century Social Science I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "20th Century Social Science II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "20th Century Imaginative Literature I",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "20th Century Imaginative Literature II",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1993",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-531-6 "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Propædia",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Index A-K",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Index L-Z",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 1",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 2",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 3",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 4",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 5",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 6",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 7",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 8",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 9",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 10",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 11",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "The New Encyclopædia Britannica - Micropædia Volume 12",
+		"Author": "Britannica, Encyclopædia 15th Edition",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-591-X "
+	}, {
+		"Title": "Britannica Atlas",
+		"Author": "Britannica, William A. Cleveland",
+		"Year": "1994",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-606-1 "
+	}, {
+		"Title": "Medical And Health Annual 1996",
+		"Author": "Britannica, Medical And Health",
+		"Year": "1995",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-615-0 "
+	}, {
+		"Title": "Medical And Health Annual 1997",
+		"Author": "Britannica, Medical And Health",
+		"Year": "1996",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-632-0 "
+	}, {
+		"Title": "The Great Ideas Today, 1997",
+		"Author": "Britannica, Great Books Of The Western World",
+		"Year": "1997",
+		"Cat": "Britannica",
+		"Pack": "HB",
+		"ISBN": "0-85229-658-4 "
+	}, {
+		"Title": "Medical And Health Annual 1998",
+		"Author": "Britannica, Medical And Health",
+		"Year": "1997",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-659-2 "
+	}, {
+		"Title": "Medical And Health Annual 1999",
+		"Author": "Britannica, Medical And Health",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-698-3 "
+	}, {
+		"Title": "Britannica Year Book 2001 - Events of 2000",
+		"Author": "Britannica",
+		"Year": "2001",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "0-85229-782-3 "
+	}, {
+		"Title": "Christina Iglesias",
+		"Author": "Iwona Blazwick",
+		"Year": "2002",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-85488-131-X "
+	}, {
+		"Title": "The Future of Work",
+		"Author": "Charles Handy",
+		"Year": "1984",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-85520-689-6 "
+	}, {
+		"Title": "How to Start a Conversation and Make Friends",
+		"Author": "Don Gabor",
+		"Year": "2003",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-85969-488-7 "
+	}, {
+		"Title": "No Ordinary Women - Irish Female Activists",
+		"Author": "Sinéad McCoole",
+		"Year": "2003",
+		"Cat": "History",
+		"Pack": "HB",
+		"ISBN": "0-86278-813-7 "
+	}, {
+		"Title": "Guide to Cat Care",
+		"Author": "David Taylor",
+		"Year": "1996",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-86318-402-2 "
+	}, {
+		"Title": "The Book of Candles",
+		"Author": "Mirinda Innes",
+		"Year": "1991",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-86318-645-9 "
+	}, {
+		"Title": "The Sleeping Giant",
+		"Author": "Marie-Louise Fitzpatrick",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "SL",
+		"ISBN": "0-86327-643-1 "
+	}, {
+		"Title": "I'm a Tiger Too!",
+		"Author": "Marie-Louise Fitzpatrick",
+		"Year": "2001",
+		"Cat": "Children",
+		"Pack": "HB",
+		"ISBN": "0-86327-871-X "
+	}, {
+		"Title": "Lonely Planet, Ireland",
+		"Author": "Smallman, Sheehan, Yale, Murray, Wheeler",
+		"Year": "1996",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "0-86442-352-7 "
+	}, {
+		"Title": "Majorelle - Small Books of Great Gardens",
+		"Author": "Marc Walter, Bela Vista",
+		"Year": "1999",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "0-86565-210-4 "
+	}, {
+		"Title": "The Metropolitan Museum of Art, Guide",
+		"Author": "Metropolitan Museum of Art, NY NY",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-87099-710-6 "
+	}, {
+		"Title": "Picasso - Portrait of Picasso as a Young Man",
+		"Author": "Norman Mailer",
+		"Year": "1995",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-87113-608-2 "
+	}, {
+		"Title": "The Art of Black and White Photography",
+		"Author": "John Garrett",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-8714-3534-4 "
+	}, {
+		"Title": "The New Market Wizards - Conversations with America's Top Traders",
+		"Author": "Jack D. Schwager",
+		"Year": "1994",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-88-730667-5 "
+	}, {
+		"Title": "Guide to the Dragonflies of Ireland",
+		"Author": "Brian Nelson, Robert Thomson, Damian McFerran",
+		"Year": "2001",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-900761-44-X "
+	}, {
+		"Title": "IMI CISM Course - Management Techniques Volume 1",
+		"Author": "Robert Galavan",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-903352-96-6 "
+	}, {
+		"Title": "IMI CISM Course - Personnel Management",
+		"Author": "Neil Collins",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-903352-97-4 "
+	}, {
+		"Title": "IMI CISM Course - Psychology and Work",
+		"Author": "Gerry Branagan, Margaret Considine",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-903352-98-2 "
+	}, {
+		"Title": "IMI CISM Course - Management Techniques Volume 2",
+		"Author": "Dermott Duff",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-903352-99-0 "
+	}, {
+		"Title": "Gardening Experts - The Tree & Shrub Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1994",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-17-7 "
+	}, {
+		"Title": "Gardening Experts - The Fruit Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1995",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-31-2 "
+	}, {
+		"Title": "Gardening Experts - The Garden DIY Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1997",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-37-1 "
+	}, {
+		"Title": "Gardening Experts - The Flowering Shrub Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1994",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-39-8 "
+	}, {
+		"Title": "Gardening Experts - Bulb Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1995",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-42-8 "
+	}, {
+		"Title": "Gardening Experts - The Container Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1998",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-43-6 "
+	}, {
+		"Title": "Gardening Experts - The New Vegetable & Herb Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1997",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-46-0 "
+	}, {
+		"Title": "Gardening Experts - The New Rose Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1996",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-47-9 "
+	}, {
+		"Title": "Gardening Experts - The New Lawn Expert",
+		"Author": "Dr. D.G. Hessayon",
+		"Year": "1999",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "0-903505-48-7 "
+	}, {
+		"Title": "Ireland, The Past Twenty Years (1986)",
+		"Author": "Jim O'Donnell",
+		"Year": "1986",
+		"Cat": "History",
+		"Pack": "SB",
+		"ISBN": "0-906980-67-4 "
+	}, {
+		"Title": "The Caring Cook",
+		"Author": "Janet Hunt",
+		"Year": "1987",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-907337-12-0 "
+	}, {
+		"Title": "Dallas Museum of Art",
+		"Author": "A Guide to the Collections",
+		"Year": "1997",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "0-936227-23-0 "
+	}, {
+		"Title": "The Construction of Dublin",
+		"Author": "Frank McDonald",
+		"Year": "2000",
+		"Cat": "History",
+		"Pack": "HB",
+		"ISBN": "0-946846-49-9 "
+	}, {
+		"Title": "The Taste of Cyprus",
+		"Author": "Gilli Davies",
+		"Year": "2003",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-948853-25-5 "
+	}, {
+		"Title": "Speech Power",
+		"Author": "Gabriel J. Hunt",
+		"Year": "1989",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "0-9509778-1-0 "
+	}, {
+		"Title": "Petah Coyne: Fairy Tales",
+		"Author": "The Butler Gallery",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "0-9530898-2-7 "
+	}, {
+		"Title": "Peter & The Wolf - Boxed with Audio CD",
+		"Author": "Sergei Prokofiev, Bono, G Friday, Irish Hospice",
+		"Year": "2003",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "0-9534880-2-0 "
+	}, {
+		"Title": "Avoca Café Cookbook",
+		"Author": "Hugo Arnold, Leylie Hayes",
+		"Year": "2000",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-9538152-0-X "
+	}, {
+		"Title": "Avoca Café Cookbook",
+		"Author": "Hugo Arnold, Leylie Hayes",
+		"Year": "2002",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "0-9538152-1-8 "
+	}, {
+		"Title": "The Essential Aloe Vera",
+		"Author": "Dr. Peter Atherton",
+		"Year": "1997",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-9540896-0-x "
+	}, {
+		"Title": "Aloe Vera - The Medicine Plant",
+		"Author": "Dr. Peter Atherton",
+		"Year": "2006",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-9540896-1-8 "
+	}, {
+		"Title": "Aloe Vera - Nature's Silent Healer",
+		"Author": "Alasdair Barcroft, Dr. Audun Myskja",
+		"Year": "2003",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "0-9545071-0-X "
+	}, {
+		"Title": "Questions Are The Answers",
+		"Author": "Allan Pease",
+		"Year": "2000",
+		"Cat": "Network M.",
+		"Pack": "SB",
+		"ISBN": "0-9593-6587-7 "
+	}, {
+		"Title": "How To Sell Network Marketing without fear, anxiety or",
+		"Author": "Michael Oliver",
+		"Year": "2002",
+		"Cat": "Network M.",
+		"Pack": "SB",
+		"ISBN": "0-9715889-0-2 "
+	}, {
+		"Title": "Dublin's Lost Heroines - Mammies and Grannies in a Vanished Dublin",
+		"Author": "Kevin C. Kearns",
+		"Year": "2004",
+		"Cat": "History",
+		"Pack": "HB",
+		"ISBN": "071713463-6 "
+	}, {
+		"Title": "Design Your Garden",
+		"Author": "Diarmuid Gavin",
+		"Year": "2004",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-4053-0545-2 "
+	}, {
+		"Title": "Chemestry Imagined - Reflections On Science",
+		"Author": "Roald Hoffmann, Vivian Torrence",
+		"Year": "1993",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "1-56098-214-4 "
+	}, {
+		"Title": "Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3",
+		"Author": "Rick Delorme",
+		"Year": "2014",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "978-0-7356-7663-3"
+	}, {
+		"Title": "Dr. Jekyll and Mr. Hyde and Other Stories",
+		"Author": "Robert Louis Stevenson",
+		"Year": "1994",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-56138-474-7 "
+	}, {
+		"Title": "Stairs - The Best Of Fine Homebuilding",
+		"Author": "Kevin Ireton",
+		"Year": "1995",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-56158-161-3 "
+	}, {
+		"Title": "Designing Furniture - New Best of Fine Woodworking",
+		"Author": "The Taunton Press",
+		"Year": "2004",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-56158-684-6 "
+	}, {
+		"Title": "Building Small Projects - New Best of Fine Woodworking",
+		"Author": "The Taunton Press",
+		"Year": "2004",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-56158-730-3 "
+	}, {
+		"Title": "Traditional Projects - New Best of Fine Woodworking",
+		"Author": "The Taunton Press",
+		"Year": "2005",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-56158-784-2 "
+	}, {
+		"Title": "American Voices - Selected by Sally Arteseros",
+		"Author": "Contemporary Authors",
+		"Year": "1992",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-56282-977-7 "
+	}, {
+		"Title": "Frankenstein",
+		"Author": "Mary Wollstonecraft Shelley",
+		"Year": "1993",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-56619-091-6 "
+	}, {
+		"Title": "Market Wizards - Interviews With Top Traders",
+		"Author": "Jack D. Schwager",
+		"Year": "2006",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "1-59280-297-4 "
+	}, {
+		"Title": "Britannica Year Book 2005 - Events of 2004",
+		"Author": "Britannica",
+		"Year": "2005",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "1-59339-246-X "
+	}, {
+		"Title": "Britannica Year Book 2006 - Events of 2005",
+		"Author": "Britannica",
+		"Year": "2006",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "1-59339-291-5 "
+	}, {
+		"Title": "Small Food",
+		"Author": "Katharine Gasparini, Murdoch Books",
+		"Year": "2003",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "1-74045-172-4 "
+	}, {
+		"Title": "The Home Guide To Woodwork",
+		"Author": "Chris Simpson",
+		"Year": "2004",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-74045-279-8 "
+	}, {
+		"Title": "Training Guide: Programming in HTML5 with JavaScript and CSS3",
+		"Author": "Glenn Johnson",
+		"Year": "2013",
+		"Cat": "IT",
+		"Pack": "SB",
+		"ISBN": "978-0-7356-7438-7"
+	}, {
+		"Title": "Lonely Planet - Paris",
+		"Author": "Steve Fallon",
+		"Year": "2004",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "1-74059-760-5 "
+	}, {
+		"Title": "Gardens of Ireland - A Touring Guide to over 100 of the Best Gardens",
+		"Author": "Terence Reeves-Smyth",
+		"Year": "2001",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "1-84000-338-3 "
+	}, {
+		"Title": "Snappy Sounds Farm",
+		"Author": "Derek Matthews",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "HB",
+		"ISBN": "1-84011-380-4 "
+	}, {
+		"Title": "Edgar Degas",
+		"Author": "Trewin Copplestone",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-84013-165-9 "
+	}, {
+		"Title": "Herbal Remedies - A Marshall Health Guide",
+		"Author": "Tamara Kircher, Jade Britton",
+		"Year": "1998",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "1-84028-071-9 "
+	}, {
+		"Title": "Your Herb Garden - A Marshall Garden Guide",
+		"Author": "Miranda Smith",
+		"Year": "1998",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-84028-115-4 "
+	}, {
+		"Title": "Growing And Using Herbs",
+		"Author": "Andi Clevely, Katherine Richmond",
+		"Year": "1999",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "1-84081-731-0 "
+	}, {
+		"Title": "Cookshelf - Pasta",
+		"Author": "Tom Bridge",
+		"Year": "1998",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-84084-282-2 "
+	}, {
+		"Title": "Encyclopedia of Garden Plants and Flowers",
+		"Author": "Lance Hattatt",
+		"Year": "1998",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-84084-296-2 "
+	}, {
+		"Title": "Irish Gardens",
+		"Author": "Olga Fitzgerald",
+		"Year": "1999",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-84091-014-3 "
+	}, {
+		"Title": "Black Gold: A Dark History of Coffee",
+		"Author": "Antony Wild",
+		"Year": "2005",
+		"Cat": "History",
+		"Pack": "SB",
+		"ISBN": "1-84115-656-6 "
+	}, {
+		"Title": "Fondue",
+		"Author": "Christine Smith",
+		"Year": "2004",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-84229-622-1 "
+	}, {
+		"Title": "Poems For Gardeners",
+		"Author": "Germaine Greer",
+		"Year": "2003",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "1-84408-009-9 "
+	}, {
+		"Title": "Marks & Spencer: Tapas",
+		"Author": "Susanna Tee",
+		"Year": "2004",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-84461-026-8 "
+	}, {
+		"Title": "Marks & Spencer: Chocolate",
+		"Author": "Marks & Spencer, Shelley Doyle",
+		"Year": "2005",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-84461-255-4 "
+	}, {
+		"Title": "Marks & Spencer: Fresh Thai",
+		"Author": "Shelley Doyle",
+		"Year": "2005",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "1-84461-333-X "
+	}, {
+		"Title": "50 Great Curries of India",
+		"Author": "Camellia Panjabi",
+		"Year": "2005",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "1-84509-264-3 "
+	}, {
+		"Title": "Living With Books",
+		"Author": "Alan Powers",
+		"Year": "2006",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-84533-181-8 "
+	}, {
+		"Title": "Terence Conran's DIY By Design",
+		"Author": "Terence Conran",
+		"Year": "1993",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-85029-460-7 "
+	}, {
+		"Title": "The Essential House Book",
+		"Author": "Terence Conran",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85029-643-X "
+	}, {
+		"Title": "Creating a Garden",
+		"Author": "Mary Keen",
+		"Year": "1996",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-85029-719-3 "
+	}, {
+		"Title": "Terence Conran on Design",
+		"Author": "Terence Conran",
+		"Year": "1996",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85029-771-1 "
+	}, {
+		"Title": "Cadbury's Chocolate Cookbook",
+		"Author": "Patricia Dunbar",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85152-253-0 "
+	}, {
+		"Title": "Gardening Techniques - RHS Concise Encyclopaedia",
+		"Author": "Christopher Brickell",
+		"Year": "1997",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-85152-399-5 "
+	}, {
+		"Title": "Book of Preserves & Pickles",
+		"Author": "The Women's Institutes",
+		"Year": "1994",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85152-618-8 "
+	}, {
+		"Title": "Leonardo Da Vinci - Experience, Experiment and Design",
+		"Author": "Martin Kemp",
+		"Year": "2007",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85177-486-6 "
+	}, {
+		"Title": "ISO 9000 Made Simple",
+		"Author": "John Shaw",
+		"Year": "1995",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "1-85252-280-1 "
+	}, {
+		"Title": "Dorothea Lange's Ireland",
+		"Author": "Gerry Mullins",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-85410-567-1 "
+	}, {
+		"Title": "It Doesn't Have To Be Like This - Green Politics Expl.",
+		"Author": "David Icke",
+		"Year": "1990",
+		"Cat": "Politics",
+		"Pack": "SB",
+		"ISBN": "1-85425-033-7 "
+	}, {
+		"Title": "Hurry, Santa!",
+		"Author": "Julie Sykes, Tim Warnes",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "SB",
+		"ISBN": "1-85430-461-5 "
+	}, {
+		"Title": "James And Preserves",
+		"Author": "Jacqueline Bellefontaine, Judith Ferguson",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85501-355-X "
+	}, {
+		"Title": "Healing Plants",
+		"Author": "Lubomír Opletal, Jan Volák",
+		"Year": "2000",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-85605-578-7 "
+	}, {
+		"Title": "The Book OF Chinese Cooking",
+		"Author": "Jasper Spencer-Smith",
+		"Year": "1991",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85613-108-4 "
+	}, {
+		"Title": "Hamlyn All Colour Indian Cookbook",
+		"Author": "Ted Smart",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85613-114-9 "
+	}, {
+		"Title": "Art, The Critics' Choice",
+		"Author": "John Russell, Marina Vaizey",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85613-783-X "
+	}, {
+		"Title": "Hamlyn New All Colour Vegetarian Cookbook",
+		"Author": "Ted Smart",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85613-822-4 "
+	}, {
+		"Title": "Hamlyn All Colour Italien Cookbook",
+		"Author": "Ted Smart",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-85613-827-5 "
+	}, {
+		"Title": "The Dublin and Monaghan Bombings",
+		"Author": "Joe Tiernan",
+		"Year": "2006",
+		"Cat": "History",
+		"Pack": "SB",
+		"ISBN": "1-8563-5320-6 "
+	}, {
+		"Title": "In Search of Natural Architecture",
+		"Author": "David Pearson",
+		"Year": "2005",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "1-85675-226-7 "
+	}, {
+		"Title": "Everyman's Library - Plays, Prose, Writings and Poems",
+		"Author": "Oscar Wilde",
+		"Year": "1991",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "1-85715-042-2 "
+	}, {
+		"Title": "Everyman's Library - Nineteen Eighty-Four",
+		"Author": "Goerge Orwell",
+		"Year": "1992",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-85715-134-8 "
+	}, {
+		"Title": "Uncle Tom's Cabin",
+		"Author": "Harriet Beecher Stowe",
+		"Year": "1995",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-85715-206-9 "
+	}, {
+		"Title": "Love in the Time of Cholera",
+		"Author": "Gabriel García Márquez",
+		"Year": "1997",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-85715-235-2 "
+	}, {
+		"Title": "American Beauty: Paintings fr. Detroit Inst. Of Art",
+		"Author": "Graham W. J. Beal",
+		"Year": "2002",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-85759-285-9 "
+	}, {
+		"Title": "Inside Outsourcing",
+		"Author": "Charles L. Gay, James Essinger",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "1-85788-204-0 "
+	}, {
+		"Title": "The Life and Works of Picasso",
+		"Author": "Nathaniel Harris",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85813-606-7 "
+	}, {
+		"Title": "Richard Wilson",
+		"Author": "Michael Archer, Simon Morrissey, Harry Stocks",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-85894-155-5 "
+	}, {
+		"Title": "Ettore Sottsass - Architect and Designer",
+		"Author": "Ronald T. Labaco",
+		"Year": "2006",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85894-320-5 "
+	}, {
+		"Title": "Modelling Clay",
+		"Author": "Penny Boylan",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-85967-887-4 "
+	}, {
+		"Title": "Mrs Neeton's Pantry",
+		"Author": "Bridget Jones",
+		"Year": "1992",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "1-86019-948-8 "
+	}, {
+		"Title": "Slow Time - 100 Poems to Take You There",
+		"Author": "Niall MacMonagle - Various",
+		"Year": "2000",
+		"Cat": "Poetry",
+		"Pack": "HB",
+		"ISBN": "1-86023-130-6 "
+	}, {
+		"Title": "Gardening Tips",
+		"Author": "Dermot O'Neill",
+		"Year": "2002",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "1-86059-166-3 "
+	}, {
+		"Title": "Mind Over Matter - The Images Of Pink Floyd",
+		"Author": "Storm Thorgerson, Peter Curzon",
+		"Year": "2003",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "1-86074-833-3 "
+	}, {
+		"Title": "Irish Industrial Relations in Practise",
+		"Author": "Thomas V. Murphy, William K. Roche",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "1-86076-029-5 "
+	}, {
+		"Title": "Making Classic English Furniture",
+		"Author": "Paul Richardson",
+		"Year": "2000",
+		"Cat": "Woodwork",
+		"Pack": "SB",
+		"ISBN": "1-86108-153-7 "
+	}, {
+		"Title": "In Code - A Mathematical Journey",
+		"Author": "Sarah Flannery, David Flannery",
+		"Year": "2000",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "1-86197-222-9 "
+	}, {
+		"Title": "A Voyage of Discovery",
+		"Author": "Francois Place",
+		"Year": "1999",
+		"Cat": "Children",
+		"Pack": "HB",
+		"ISBN": "1-86205-213-1 "
+	}, {
+		"Title": "The Style Source Book",
+		"Author": "Judith Miller",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-86732-718-0 "
+	}, {
+		"Title": "Basketmaking in Ireland",
+		"Author": "Joe Hogan",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-869857-51-8 "
+	}, {
+		"Title": "The Event Horizon - Irish Museum of Modern Art",
+		"Author": "Michael Tarantino",
+		"Year": "1997",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-873654-49-9 "
+	}, {
+		"Title": "IMMA - Catalogue of the Collection, May 91 - May 98",
+		"Author": "Catherine Marshall, Ronan McCrea",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-873654-69-3 "
+	}, {
+		"Title": "Hannah Starkey: Moments In The Modern World",
+		"Author": "Sarah Glennie, IMMA",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-873654-90-1 "
+	}, {
+		"Title": "Word 97 in Easy Steps",
+		"Author": "Scott Basham",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "1-874029-68-7 "
+	}, {
+		"Title": "The Greens Book",
+		"Author": "Susan Belsinger, Carolyn Dille",
+		"Year": "1995",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "1-883010-05-5 "
+	}, {
+		"Title": "Attitude is Everything",
+		"Author": "Jeff Keller",
+		"Year": "1999",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "1-891279-01-7 "
+	}, {
+		"Title": "Everything in this Country Must",
+		"Author": "Colum McCann",
+		"Year": "2000",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "1-897580-39-8 "
+	}, {
+		"Title": "Etiquette For Coffee Lovers",
+		"Author": "Beryl Peters",
+		"Year": "1996",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "1-898617-13-9 "
+	}, {
+		"Title": "A Beginners Guide o The Microchip PIC",
+		"Author": "Nigel Gardner",
+		"Year": "1995",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "1-899013-01-6 "
+	}, {
+		"Title": "PIC Cookbook Volume 1",
+		"Author": "Nigel Gardner, Peter Birnie",
+		"Year": "1996",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "1-899013-02-4 "
+	}, {
+		"Title": "Colourful Gardening: Climbers",
+		"Author": "Richard Ross",
+		"Year": "1999",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-900518-80-5 "
+	}, {
+		"Title": "IMI CISM Course - Business Environment",
+		"Author": "Brian J Goggin, Robert Jordan, Colm Ó Maolmhuire",
+		"Year": "2000",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "1-902664-00-0 "
+	}, {
+		"Title": "IMI CISM Course - Practical Communication",
+		"Author": "Kay Cullinan",
+		"Year": "1998",
+		"Cat": "Management",
+		"Pack": "SB",
+		"ISBN": "1-902664-00-0 "
+	}, {
+		"Title": "Flora Hibernica - The Wild Flowers, Plants and Trees..",
+		"Author": "Jonathan Pilcher, Valerie Hall",
+		"Year": "2001",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-903464-03-X "
+	}, {
+		"Title": "Pauline Bewick - Seven Ages",
+		"Author": "Alan Hayes, Cathal O Searcaigh",
+		"Year": "2006",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-903631-87-4 "
+	}, {
+		"Title": "Irish Museum of Modern Art - Celebrating A Decade",
+		"Author": "IMMA",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "1-903811-05-8 "
+	}, {
+		"Title": "Dreaming of the Dragon's Nation - Cont. Art Exh. China",
+		"Author": "IMMA, Li Xiangyang",
+		"Year": "2004",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-903811-40-6 "
+	}, {
+		"Title": "Irish Museum of Modern Art - The Collection",
+		"Author": "Marguerite O'Molloy",
+		"Year": "2005",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-903811-48-1 "
+	}, {
+		"Title": "Barry Flanagan - Sculpture 1965 - 2005",
+		"Author": "IMMA / HUGH LANE GALLERY",
+		"Year": "2006",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1-903811-62-7 "
+	}, {
+		"Title": "Wild Plants of South-Western Ireland",
+		"Author": "Charles Nelson",
+		"Year": "2001",
+		"Cat": "Gardening",
+		"Pack": "SB",
+		"ISBN": "1-904004-01-6 "
+	}, {
+		"Title": "Orchids of Glasnevin",
+		"Author": "E. Charles Nelson, Brendan Sayers",
+		"Year": "2002",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "1-904004-03-02 "
+	}, {
+		"Title": "The House That Tom Build .. And how to build one of ..",
+		"Author": "Tom Don",
+		"Year": "2005",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "1-904095-91-7 "
+	}, {
+		"Title": "Extreme 9 to 5 - Life-saver. Risk-taker.",
+		"Author": "Mad Moose Press",
+		"Year": "2001",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "1-904139-01-9 "
+	}, {
+		"Title": "Understanding Aloe Vera",
+		"Author": "Dr. Peter Atherton",
+		"Year": "2005",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "1-904439-33-03 "
+	}, {
+		"Title": "Raging Against The Machine",
+		"Author": "Chris Brazier, New Internationalist",
+		"Year": "2003",
+		"Cat": "Politics",
+		"Pack": "SB",
+		"ISBN": "1-904456-02-2 "
+	}, {
+		"Title": "Bilbao",
+		"Author": "Philip Jodidio",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "1242-9198 "
+	}, {
+		"Title": "Fascinating Paris",
+		"Author": "Marc Lemonier, Jacques Lebar",
+		"Year": "2002",
+		"Cat": "Travel",
+		"Pack": "HB",
+		"ISBN": "2-84096-267-5 "
+	}, {
+		"Title": "Orsay Masterpieces",
+		"Author": "Jerome Picon",
+		"Year": "2003",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "2-85495-212-X "
+	}, {
+		"Title": "Boulevard Magenta - Issue 1 Summer 2009",
+		"Author": "IMMA",
+		"Year": "2009",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "2009-1834 "
+	}, {
+		"Title": "English In Action 3R",
+		"Author": "Laurence Harger Judith Harlos Shirley Söldenwagner",
+		"Year": "1981",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "3--526-50046-0 "
+	}, {
+		"Title": "Grund- und Aufbauwortschatz Englisch",
+		"Author": "Klett",
+		"Year": "1985",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "3-12-519510-1 "
+	}, {
+		"Title": "Die Physiker",
+		"Author": "Friedrich Dürrenmatt",
+		"Year": "1980",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "3-257-20837-5 "
+	}, {
+		"Title": "Wäscheklammern - einmal anders",
+		"Author": "Christa und Lutz Hering",
+		"Year": "1978",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-419-52438-2 "
+	}, {
+		"Title": "Knaurs Kulturführer in Farbe, Deutschland",
+		"Author": "Droemer Knaur",
+		"Year": "1976",
+		"Cat": "Travel",
+		"Pack": "HB",
+		"ISBN": "3-426-04588-5 "
+	}, {
+		"Title": "Männer sind anders. Frauen auch.",
+		"Author": "John Gray",
+		"Year": "1998",
+		"Cat": "Psychology",
+		"Pack": "SB",
+		"ISBN": "3-442-16107-X "
+	}, {
+		"Title": "Hundert Jahre Einsamkeit",
+		"Author": "Gabriel García Márquez",
+		"Year": "1997",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "3-462-02629-1 "
+	}, {
+		"Title": "English G 6B",
+		"Author": "Cornelsen-Velhagen & Klasing Verlag",
+		"Year": "1983",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-464-00340-X "
+	}, {
+		"Title": "English G 5B",
+		"Author": "Cornelsen-Velhagen & Klasing Verlag",
+		"Year": "1982",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-464-00441-4 "
+	}, {
+		"Title": "Langenscheidts Großes Schulwörterbuch Englisch-Deutsch",
+		"Author": "Langenscheidt",
+		"Year": "1987",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-468-07121-3 "
+	}, {
+		"Title": "Langenscheidts Großes Schulwörterbuch Deutsch-Englisch",
+		"Author": "Langenscheidt",
+		"Year": "1997",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-468-07129-9 "
+	}, {
+		"Title": "Langenscheidts Schulwörterbuch Englisch-Deutsch/D-E",
+		"Author": "Langenscheidt",
+		"Year": "1985",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "3-468-13120-8 "
+	}, {
+		"Title": "Rolltreppe Abwärts",
+		"Author": "Hans-Georg Noack",
+		"Year": "1974",
+		"Cat": "Fiction",
+		"Pack": "SB",
+		"ISBN": "3-473-39299-5 "
+	}, {
+		"Title": "Mit Papa in der Stadt",
+		"Author": "Rosemarie Künzler-Behncke, Roser Rius",
+		"Year": "2002",
+		"Cat": "Children",
+		"Pack": "SB",
+		"ISBN": "3-473-69883-0 "
+	}, {
+		"Title": "Bobo Siebenschläfer - Bildgeschichten für ganz Kleine",
+		"Author": "Markus Osterwalder",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "SB",
+		"ISBN": "3-499-20368-5 "
+	}, {
+		"Title": "Das große Buch von Bobo Siebenschläfer",
+		"Author": "Markus Osterwalder",
+		"Year": "2006",
+		"Cat": "Children",
+		"Pack": "SB",
+		"ISBN": "3-499-21392-3 "
+	}, {
+		"Title": "How Do You Do Textbook - B3",
+		"Author": "Schöningh",
+		"Year": "1982",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-506-42230-8 "
+	}, {
+		"Title": "How Do You Do Working With Words And Structures - B3",
+		"Author": "Schöningh",
+		"Year": "1976",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "3-506-42233-2 "
+	}, {
+		"Title": "How Do You Do Textbook - B4",
+		"Author": "Schöningh",
+		"Year": "1974",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-506-42240-5 "
+	}, {
+		"Title": "How Do You Do Working With Words And Structures - B4",
+		"Author": "Schöningh",
+		"Year": "1976",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "3-506-42243-X "
+	}, {
+		"Title": "How Do You Do Textbook - S1",
+		"Author": "Schöningh",
+		"Year": "1974",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-506-42810-1 "
+	}, {
+		"Title": "How Do You Do Textbook - S2",
+		"Author": "Schöningh",
+		"Year": "1980",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-506-42820-9 "
+	}, {
+		"Title": "Heinz Rühmann - Das war's",
+		"Author": "Heinz Rühmann",
+		"Year": "1983",
+		"Cat": "Biography",
+		"Pack": "HB",
+		"ISBN": "3-550-06472-1 "
+	}, {
+		"Title": "Großes Lexikon der Philatelie",
+		"Author": "Ullrich Häger",
+		"Year": "1973",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-570-03229-9 "
+	}, {
+		"Title": "Der Struwwelpeter",
+		"Author": "Dr. Heinr. Hoffmann",
+		"Year": "1997",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-614-39801-3 "
+	}, {
+		"Title": "Es muß nicht immer Kaviar sein",
+		"Author": "Johannes Mario Simmel",
+		"Year": "1972",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "3-7632-1379-1 "
+	}, {
+		"Title": "Irland",
+		"Author": "Klaus Viedebantt, Karl-Heinz Raach",
+		"Year": "1988",
+		"Cat": "Travel",
+		"Pack": "HB",
+		"ISBN": "3-7654-2185-5 "
+	}, {
+		"Title": "Gerichte Unter 10,- Mark - Schmackhaft Kochen Für 4 P.",
+		"Author": "Dr. Oetker",
+		"Year": "1989",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "3-7670-0289-2 "
+	}, {
+		"Title": "German Baking Today - The Original",
+		"Author": "Dr. Oetker",
+		"Year": "1997",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "3-7670-0371-6 "
+	}, {
+		"Title": "Funktechnik Ohne Ballast",
+		"Author": "Otto Limann, Horst Pelka",
+		"Year": "1984",
+		"Cat": "Electronic",
+		"Pack": "HB",
+		"ISBN": "3-7723-5266-9 "
+	}, {
+		"Title": "Fernsehtechnik Ohne Ballast",
+		"Author": "Otto Limann, Horst Pelka",
+		"Year": "1983",
+		"Cat": "Electronic",
+		"Pack": "HB",
+		"ISBN": "3-7723-5274-X "
+	}, {
+		"Title": "Mit Würzigem Basteln",
+		"Author": "Irmgard von Stetten",
+		"Year": "1980",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0304-2 "
+	}, {
+		"Title": "Wäscheklammern, Neue Modelle",
+		"Author": "Udo Arnheimer",
+		"Year": "1979",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0318-2 "
+	}, {
+		"Title": "Weihnachtsschmuck",
+		"Author": "Susanne Dilger",
+		"Year": "1979",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0389-1 "
+	}, {
+		"Title": "Makramee, Tierchen und Ampeln",
+		"Author": "Dieti G. Fausel",
+		"Year": "1980",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0406-5 "
+	}, {
+		"Title": "Mit Makramee schöner wohnen",
+		"Author": "Inge Walz",
+		"Year": "1980",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0417-0 "
+	}, {
+		"Title": "Engel und Figuren für die Weihnachtskrippe",
+		"Author": "Rita Frischmann",
+		"Year": "1980",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0444-8 "
+	}, {
+		"Title": "Panflöte bauen and spielen",
+		"Author": "Ingeborg Becker",
+		"Year": "1981",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0471-5 "
+	}, {
+		"Title": "Makramee Ideen fürs Heim",
+		"Author": "Inge Walz",
+		"Year": "1981",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0490-1 "
+	}, {
+		"Title": "Makramee aus Resten",
+		"Author": "Bärbel Wenzelburger, Inge Walz",
+		"Year": "1981",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0525-8 "
+	}, {
+		"Title": "Makramee für alle Jahreszeiten",
+		"Author": "Dieti G. Fausel",
+		"Year": "1982",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7724-0528-2 "
+	}, {
+		"Title": "Plätchen Leicht Gemacht",
+		"Author": "Gudrun Ruschitzka",
+		"Year": "1996",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "3-7742-2363-7 "
+	}, {
+		"Title": "Unser Kochbuch No 1 - Das GU Kochbuch für Junge Leute",
+		"Author": "Gunhild von der Recke, Annette Wolter",
+		"Year": "1988",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "3-7742-4620-3 "
+	}, {
+		"Title": "The Hours - Visual Arts of Contemporary Latin America",
+		"Author": "Hatje Cantz, IMMA",
+		"Year": "2005",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-7757-1710-2 "
+	}, {
+		"Title": "Schloß Heidelberg im Zeitalter der Romantik",
+		"Author": "Uwe Heckmann",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-7954-1251-X "
+	}, {
+		"Title": "Jugendstil im Landesmuseum Mainz",
+		"Author": "Philipp von Zabern",
+		"Year": "1990",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8053-1141-9 "
+	}, {
+		"Title": "The Sanctuary of Isis and Mater Magna - Tour Guide",
+		"Author": "Marion Witteyer",
+		"Year": "2004",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "3-8053-3438-9 "
+	}, {
+		"Title": "Geschäftsbriefe",
+		"Author": "Gisa Briese-Neumann",
+		"Year": "1997",
+		"Cat": "Management",
+		"Pack": "HB",
+		"ISBN": "3-8068-1323-X "
+	}, {
+		"Title": "Prüfungsbuch für Elektroniker",
+		"Author": "Europa Lehrmittel",
+		"Year": "1987",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "3-8085-3173-8 "
+	}, {
+		"Title": "Kinderlieder, Kinderreime",
+		"Author": "Almut Gaugler",
+		"Year": "2004",
+		"Cat": "Children",
+		"Pack": "HB",
+		"ISBN": "3-8094-1719-X "
+	}, {
+		"Title": "Compact Minirezepte - Pfälzer Küche",
+		"Author": "Rose Marie Donhauser",
+		"Year": "1995",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "3-8174-3282-8 "
+	}, {
+		"Title": "Expressionism",
+		"Author": "Dietmar Elger",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-8228-0274-3 "
+	}, {
+		"Title": "The Polaroid Book",
+		"Author": "Steve Crist",
+		"Year": "2005",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-3072-0 "
+	}, {
+		"Title": "Art of the 20th Century",
+		"Author": "Ruhrberg, Schneckenburger, Fricke, Honnef",
+		"Year": "2000",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-8228-5907-9 "
+	}, {
+		"Title": "The Lilies",
+		"Author": "Pierre-Joseph Redouté",
+		"Year": "2000",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "3-8228-6407-2 "
+	}, {
+		"Title": "Pop Art",
+		"Author": "Tilman Osterwold",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-7021-8 "
+	}, {
+		"Title": "R. M. Schindler",
+		"Author": "James Steele",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-7188-5 "
+	}, {
+		"Title": "Hopper",
+		"Author": "Ivo Kranzfelder",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-7210-5 "
+	}, {
+		"Title": "New York 1960",
+		"Author": "Robert A.M. Stern, Thomas Mellins, David Fishman",
+		"Year": "1997",
+		"Cat": "Travel",
+		"Pack": "HB",
+		"ISBN": "3-8228-7741-7 "
+	}, {
+		"Title": "Monet Volume I - Or The Triumph Of Impressionism",
+		"Author": "Daniel Wildenstein",
+		"Year": "1996",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-8559-2 "
+	}, {
+		"Title": "Monet Volume II - Catalogue Raisonné/Werkverzeichnis",
+		"Author": "Daniel Wildenstein",
+		"Year": "1996",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-8559-2 "
+	}, {
+		"Title": "Monet Volume III - Catalogue Raisonné/Werkverzeichnis",
+		"Author": "Daniel Wildenstein",
+		"Year": "1996",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-8559-2 "
+	}, {
+		"Title": "Monet Volume IV - Catalogue Raisonné/Werkverzeichnis",
+		"Author": "Daniel Wildenstein",
+		"Year": "1996",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-8559-2 "
+	}, {
+		"Title": "Jeanloup Sieff - 40 Years of Photography",
+		"Author": "Daniela Kumor",
+		"Year": "1996",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8228-8573-8 "
+	}, {
+		"Title": "Matisse",
+		"Author": "Volkmar Esser",
+		"Year": "1993",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-8228-9640-3 "
+	}, {
+		"Title": "New York Vertical",
+		"Author": "Horst Hamann",
+		"Year": "1999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-8238-0370-0 "
+	}, {
+		"Title": "Die Mundorgel",
+		"Author": "Mundorgel Vertrieb",
+		"Year": "1984",
+		"Cat": "Music",
+		"Pack": "SB",
+		"ISBN": "3-87571-029-0 "
+	}, {
+		"Title": "Der Praktische Fensterbau",
+		"Author": "August Graef",
+		"Year": "2003",
+		"Cat": "Woodwork",
+		"Pack": "HB",
+		"ISBN": "3-87870-670-7 "
+	}, {
+		"Title": "Kartoffelzeit ist immer",
+		"Author": "Gisela Allkemper",
+		"Year": "2001",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "3-88117-558-X "
+	}, {
+		"Title": "Täglich in der Hand - Wilhelm Wagenfeld",
+		"Author": "Beate Manske, Gudrun Schulz",
+		"Year": "2005",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "3-88808-550-0 "
+	}, {
+		"Title": "CMOS Experimente - Praktische Schaltbeispiele",
+		"Author": "C. Lorenz",
+		"Year": "1989",
+		"Cat": "Electronic",
+		"Pack": "SB",
+		"ISBN": "3-88963-249-1 "
+	}, {
+		"Title": "Irische Küche",
+		"Author": "Anne Wilson",
+		"Year": "1996",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "3-89508-129-9 "
+	}, {
+		"Title": "Pride And Prejudice",
+		"Author": "Jane Austen",
+		"Year": "1996",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "3-89508-207-4 "
+	}, {
+		"Title": "Romanesque - Architecture, Sculpture, Painting",
+		"Author": "Könemann Verlagsgesellschaft",
+		"Year": "1997",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-89508-447-6 "
+	}, {
+		"Title": "Grimms Märchen - Gesamtausgabe",
+		"Author": "Brüder Grimm",
+		"Year": "2004",
+		"Cat": "Fiction",
+		"Pack": "HB",
+		"ISBN": "3-89555-238-0 "
+	}, {
+		"Title": "Das vegetarische Baby",
+		"Author": "Irmela Erckenbrecht",
+		"Year": "2001",
+		"Cat": "Cooking",
+		"Pack": "HB",
+		"ISBN": "3-89566-143-0 "
+	}, {
+		"Title": "Im Augenblick",
+		"Author": "Ulla Meinecke",
+		"Year": "2005",
+		"Cat": "Biography",
+		"Pack": "SB",
+		"ISBN": "3-89602-617-8 "
+	}, {
+		"Title": "Weinpfalz - Rheinpfalz, Eine Region Und Ihr Wein",
+		"Author": "Bernhard Kukatzki, Beate E. Steigner",
+		"Year": "2002",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "3-89702-426-8 "
+	}, {
+		"Title": "Farbbild-Reise Pfalz",
+		"Author": "Barbara Chr. Titz",
+		"Year": "2000",
+		"Cat": "Travel",
+		"Pack": "HB",
+		"ISBN": "3-921268-06-0 "
+	}, {
+		"Title": "Rebecca Horn: The Glance of Infinity",
+		"Author": "Carl Haenlein",
+		"Year": "1997",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "3-931141-66-7 "
+	}, {
+		"Title": "Living In Motion - Design and architecture for flexibl",
+		"Author": "Mathias Schwartz-Clauss",
+		"Year": "2002",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "3-931936-35-X "
+	}, {
+		"Title": "Meine Zeit in der Werkstatt Wilhelm Wagenfeld",
+		"Author": "Heinz G. Pfaender",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "3-9803485-5-5 "
+	}, {
+		"Title": "Herbs - The Time Life Encyclopaedia Of Gardening",
+		"Author": "James Underwood Crockett, Ogden Tanner",
+		"Year": "1979",
+		"Cat": "Gardening",
+		"Pack": "HB",
+		"ISBN": "7054-0562-1 "
+	}, {
+		"Title": "The Collins Spanish Concise Dictionary",
+		"Author": "Mike Gonzalez",
+		"Year": "1991",
+		"Cat": "Reference",
+		"Pack": "HB",
+		"ISBN": "84-253-1728-2 "
+	}, {
+		"Title": "Museo Picasso - Catálogo de pintura y dibujo",
+		"Author": "Museo Picasso",
+		"Year": "9999",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "84-7609-014-5 "
+	}, {
+		"Title": "The Güell Palace",
+		"Author": "Gonzáles, Lacuesta, Moreno, De Puig, Salva",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "84-7794-792-9 "
+	}, {
+		"Title": "Museu de Montserrat - Guía de visita",
+		"Author": "Museu de Montserrat",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "84-7826-981-9 "
+	}, {
+		"Title": "Majorca Cathedral - English Guide",
+		"Author": "Catalina Cantarellas Camps",
+		"Year": "2002",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "84-8003-297-9 "
+	}, {
+		"Title": "Juan Uslé - Open Rooms",
+		"Author": "Arte Espanol Para El Exterior",
+		"Year": "2003",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "84-96008-39-8 "
+	}, {
+		"Title": "Moroccan Cooking",
+		"Author": "Lisa Mugnai",
+		"Year": "2000",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "88-476-0701-9 "
+	}, {
+		"Title": "Georgia O'Keeffe - Nature and Abstraction",
+		"Author": "IMMA / Vancouver Art Gallery",
+		"Year": "2007",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "88-6130-128-3 "
+	}, {
+		"Title": "Marina Abramovic: Artist Body",
+		"Author": "Marina Abramovic",
+		"Year": "1998",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "88-8158-175-2 "
+	}, {
+		"Title": "Marina Abramovic: Public Body",
+		"Author": "Germano Celant",
+		"Year": "2001",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "88-8158-295-3 "
+	}, {
+		"Title": "Dorothy Cross",
+		"Author": "Emily Ligniti, IMMA",
+		"Year": "2005",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "88-8158-533-2 "
+	}, {
+		"Title": "Alex Katz - New York",
+		"Author": "IMMA",
+		"Year": "2007",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "88-8158-634-7 "
+	}, {
+		"Title": "Joan Jonas: Works 1968 - 1994",
+		"Author": "Stedelijk Museum Amsterdam",
+		"Year": "1994",
+		"Cat": "Art",
+		"Pack": "SB",
+		"ISBN": "90-5006-095-1 "
+	}, {
+		"Title": "Insight Guide - Germany",
+		"Author": "Discovery Channel",
+		"Year": "1998",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "962-421-436-0 "
+	}, {
+		"Title": "Guide to Natural Remedies for Health and Well-Being",
+		"Author": "Enrique Garza",
+		"Year": "1998",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "968-7276-03-8 "
+	}, {
+		"Title": "The Art of Traditional Thai Massage",
+		"Author": "Asokananda (Harold Brust)",
+		"Year": "2001",
+		"Cat": "Reference",
+		"Pack": "SB",
+		"ISBN": "974-210-508-1 "
+	}, {
+		"Title": "The Best of Thai Vegetarian Food",
+		"Author": "Sisamon Kongpan",
+		"Year": "2000",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "974-7162-94-6 "
+	}, {
+		"Title": "The River Cottage Fish Book",
+		"Author": "Hugh Fearnley-Whittingstall and Nick Fisher",
+		"Year": "2007",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "978-0-7475-8869-6 "
+	}, {
+		"Title": "Alan Phelan - Fragile Absolutes",
+		"Author": "IMMA",
+		"Year": "2009",
+		"Cat": "Art",
+		"Pack": "HB",
+		"ISBN": "978-8881-586428 "
+	}, {
+		"Title": "Insight Guide - New York",
+		"Author": "Discovery Channel",
+		"Year": "2000",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-234-088-2 "
+	}, {
+		"Title": "Insight Guide - Portugal",
+		"Author": "Discovery Channel",
+		"Year": "2000",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-234-089-0 "
+	}, {
+		"Title": "Insight Guide - Texas",
+		"Author": "Discovery Channel",
+		"Year": "1999",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-234-093-9 "
+	}, {
+		"Title": "Insight Guide - Spain",
+		"Author": "Discovery Channel",
+		"Year": "2000",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-234-127-7 "
+	}, {
+		"Title": "Insight Guide - Thailand",
+		"Author": "Discovery Channel",
+		"Year": "2001",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-234-224-9 "
+	}, {
+		"Title": "Insight Guide - Morocco",
+		"Author": "Discovery Channel",
+		"Year": "2000",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-234-306-7 "
+	}, {
+		"Title": "Insight City Guide - London",
+		"Author": "Discovery Channel",
+		"Year": "2005",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-4137-52-9 "
+	}, {
+		"Title": "Insight City Guide - Paris",
+		"Author": "Discovery Channel",
+		"Year": "2005",
+		"Cat": "Travel",
+		"Pack": "SB",
+		"ISBN": "981-4137-55-3 "
+	}, {
+		"Title": "Moroccan Cooking",
+		"Author": "Latifa Bennani-Smires",
+		"Year": "1993",
+		"Cat": "Cooking",
+		"Pack": "SB",
+		"ISBN": "9981-803-15-4 "
+	}]
+}

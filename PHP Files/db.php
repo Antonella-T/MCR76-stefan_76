@@ -1,102 +1,96 @@
 <?php
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                              +
++  This php file is part of our backend processing.                            +
++  PHP scripting not covered in the Front End Web Developer Course             +
++                                                                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
   $myRoot = substr($_SERVER['DOCUMENT_ROOT'], 0, strpos($_SERVER['DOCUMENT_ROOT'], 'public_html'));
   $myPage = $_SERVER['PHP_SELF'];
   require  $myRoot . 'mcr76_hidden/script.php';
   
   $data = json_decode($_POST['data'], true);
   $tableName = array_keys($data)[0];
-  if ($config['myRoot'] != '/home/' . $data[$tableName]['apiKey'] . '/') {
-    echo 'Authorization Required ...';
-    exit;
-  }
+
+if ($config['myRoot'] != '/home/' . $data[$tableName]['apiKey'] . '/') {
+  echo 'Authorization Required ...';
+  exit;
+}
+
   $timeZone = $data[$tableName]['timeZone'];
   //echo $timeZone;
   $debugD = '';
-  $dbPhpRev = '0.2';
+  $dbPhpRev = '0.3';
   $strOrig = array('"');
   $strEsc = array('\"');
   $aok = false;
   
-  if ($data[$tableName]['purpose'] == 'CT') {
-    //echo 'Create Table';
-          $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-      if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-      }
-
-    $sql = 'CREATE TABLE ' . $tableName . ' (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,';
-
-//echo sizeof($data[$tableName]['data']);
-//print_r($data[$tableName]['data'][1]);
-//$rows = json_decode($data[$tableName]['data'], true);
-//echo $rows;
-foreach($data[$tableName]['data'] as $x) {
-  $sql .= ' ' . $x['colName'];
-  if ($x['dataType'] == 'String') {
-    $sql .= ' VARCHAR(' . $x['dataLength'] . ') CHARACTER SET utf8 COLLATE utf8_unicode_ci';
+if ($data[$tableName]['purpose'] == 'CT') {
+  //echo 'Create Table';
+  $conn = connectDb();
+  $sql = 'CREATE TABLE ' . $tableName . ' (';
+  $sql .= 'id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,';
+  //echo sizeof($data[$tableName]['data']);
+  //print_r($data[$tableName]['data'][1]);
+  //$rows = json_decode($data[$tableName]['data'], true);
+  //echo $rows;
+  foreach($data[$tableName]['data'] as $x) {
+    $sql .= ' ' . $x['colName'];
+    if ($x['dataType'] == 'String') {
+      $sql .= ' VARCHAR(' . $x['dataLength'] . ') CHARACTER SET utf8 COLLATE utf8_unicode_ci';
+    }
+    if ($x['dataType'] == 'Number') {
+      $sql .= ' DECIMAL (14,5)';
+    }
+    if ($x['dataType'] == 'Boolean') {
+      $sql .= ' BOOLEAN';
+    }
+    if ($x['unique'] == 1) {
+      $sql .= ' NOT NULL UNIQUE';
+    }
+    $sql .= ', ';
+    //for($x = 0; $x <= sizeof($data[$tableName]['data']); $x++) {
+    //echo $x;
+    //echo $x['colName'];
+    //echo $data[$tableName]['data'][$x]['colName'];
   }
-  if ($x['dataType'] == 'Number') {
-    $sql .= ' DECIMAL (14,5)';
+  $sql .= 'createDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, ';
+  $sql .= 'updateDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)';
+  if ($conn->query($sql) === TRUE) {
+    $debugD .= 'Table ' . $tableName . ' created successfully. ';
+    $aok = true;
+  } else {
+    $debugD .= 'Error creating table' . $tableName . ': ' . $conn->error . '. ';
+    //$aok = false;
   }
-  if ($x['dataType'] == 'Boolean') {
-    $sql .= ' BOOLEAN';
-  }
-  if ($x['unique'] == 1) {
-    $sql .= ' NOT NULL UNIQUE';
-  }
-  $sql .= ', ';
-//for($x = 0; $x <= sizeof($data[$tableName]['data']); $x++) {
-   //echo $x;
-   //echo $x['colName'];
-   //echo $data[$tableName]['data'][$x]['colName'];
+  returnJson('{}', 0, $debugD, $sql);
+  $conn->close();
 }
-
-
-//lastname VARCHAR(30) NOT NULL,
-//email VARCHAR(50),
-$sql .= 'createDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-updateDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)';
-
-//exit;
-
-if ($conn->query($sql) === TRUE) {
-  echo 'Table ' . $tableName . ' created successfully';
-} else {
-  echo 'Error creating table: ' . $conn->error;
-}
-
-$conn->close();
+  
+  
+  
+else if ($data[$tableName]['purpose'] == 'RT') {
+  //echo 'Remove Table';
+  $conn = connectDb();
+  $sql = 'DROP TABLE ' . $tableName;
+  if ($conn->query($sql) === TRUE) {
+    $debugD .= 'Table ' . $tableName . ' removed successfully. ';
+    $aok = true;
+  } else {
+    $debugD .= 'Error removing table' . $tableName . ': ' . $conn->error . '. ';
+    //$aok = false;
   }
-  
-  
-  
-  else if ($data[$tableName]['purpose'] == 'RT') {
-    //echo 'Remove Table';
-          $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-      if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-      }
-
-    $sql = 'DROP TABLE ' . $tableName;
-if ($conn->query($sql) === TRUE) {
-  echo 'Table ' . $tableName . ' removed successfully';
-} else {
-  echo 'Error removing table: ' . $conn->error;
+  returnJson('{}', 0, $debugD, $sql);
+  $conn->close();
 }
-
-$conn->close();
-      
-  }
   
   
-  else if ($data[$tableName]['purpose'] == 'AC') {
-    //echo 'Add Column(s)';
-          $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-      if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-      }
+else if ($data[$tableName]['purpose'] == 'AC') {
+  //echo 'Add Column(s)';
+  $conn = connectDb();
 
     $sql = 'ALTER TABLE ' . $tableName;
 foreach($data[$tableName]['data'] as $x) {
@@ -134,12 +128,9 @@ $conn->close();
   
 
 
-  else if ($data[$tableName]['purpose'] == 'RC') {
-    echo 'Remove Column(s)';
-          $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-      if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-      }
+else if ($data[$tableName]['purpose'] == 'RC') {
+  echo 'Remove Column(s)';
+  $conn = connectDb();
 
     $sql = 'ALTER TABLE ' . $tableName;
 foreach($data[$tableName]['data'] as $x) {
@@ -166,12 +157,9 @@ $conn->close();
 
 
 
-  else if ($data[$tableName]['purpose'] == 'ID') {
-    //echo 'Import JSON Data File';
-          $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-      if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-      }
+else if ($data[$tableName]['purpose'] == 'ID') {
+  //echo 'Import JSON Data File';
+  $conn = connectDb();
       
   $jsonFile = file_get_contents($myRoot . 'mcr76_hidden/' . $tableName . '.json');
   $jsonFile = mb_convert_encoding($jsonFile, 'UTF-8', mb_detect_encoding($jsonFile, 'UTF-8, ISO-8859-1', true));
@@ -179,7 +167,7 @@ $conn->close();
   
   //echo $jsonData[$tableName][0]['PartNo'].  '<br>';
   //echo $jsonData[$tableName][0].  '<br>';
-  print_r($jsonData[$tableName][6]);
+  //print_r($jsonData[$tableName][6]);
   //echo sizeof($jsonData[$tableName][0]) . '<br>';
   $keys = array_keys($jsonData[$tableName][0]);
   //print_r($keys);
@@ -245,10 +233,7 @@ $conn->close();
 
 else if ($data[$tableName]['purpose'] == 'ED') {
   //echo 'Export JSON Data File';
-  $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-  if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-  }
+  $conn = connectDb();
   $sql = 'SELECT * FROM ' . $tableName;
   $result = mysqli_query($conn, $sql);
   $fieldCount = $result->field_count;
@@ -315,37 +300,56 @@ else if ($data[$tableName]['purpose'] == 'ED') {
 }
 
 
+else if ($data[$tableName]['purpose'] == 'C') {
+  //echo 'Create Records';
+  $conn = connectDb();
+  $sql = 'INSERT INTO ' . $tableName .' (';
+  //print_r($data[$tableName]);
+  foreach($data[$tableName]['data'] as $x) {
+    $sql .= $x['colName'] . ', ';
+  }
+  $sql = substr($sql, 0, -2);
+  $sql .= ') VALUES (';
+  foreach($data[$tableName]['data'] as $x) {
+    if ($x['dataType'] == 'String') {
+      $sql .= '"' . $x['new'] . '", ';        
+    }
+    else if ($x['dataType'] == 'Number') {
+      $sql .= $x['new'] . ', ';        
+    }
+    else if ($x['dataType'] == 'Boolean') {
+      if ($x['new'] == 1) {
+        $sql .= '1, ';    
+      }
+      else {
+        $sql .= '0, ';    
+      }
+    }
+    else {
+      $sql .= '"' . $x['new'] . '", ';        
+    }
+  }
+  $sql = substr($sql, 0, -2);
+  $sql .= ')';
+  //echo $sql;
+  //exit;
+  if ($conn->query($sql) === TRUE) {
+    $debugD .= 'Created new record for ' . $tableName . ' successfully. ';
+    $aok = true;
+  } else {
+    $debugD .= 'Error creating new record for ' . $tableName . ': ' . $conn->error . '. ';
+    //$aok = false;
+  }
+  returnJson('{}', 0, $debugD, $sql);
+  $conn->close();
+}  
 
 
 else if ($data[$tableName]['purpose'] == 'R') {
   //echo 'Read Records';
-  $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
-  if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-  }
-  $sql = 'SELECT * FROM ' . $tableName . ' WHERE ';
-  foreach($data[$tableName]['data'] as $x) {
-    //echo $x['colName'] . $x['search'] . $x['dataType'];
-    if ($x['dataType'] == 'String') {
-      if ($x['strict'] == 1) {
-        $sql .= $x['colName'] . ' LIKE "' . $x['search'] . '"';
-      } else {
-        $sql .= $x['colName'] . ' LIKE "%' . $x['search'] . '%"';
-      }
-    }
-    else if ($x['dataType'] == 'Number') {
-      $sql .= $x['colName'] . ' = ' . $x['search'];
-    }
-    else if ($x['dataType'] == 'Boolean') {
-      if ($x['search'] == 1) {
-        $sql .= $x['colName'] . ' = 1';
-      } else {
-        $sql .= $x['colName'] . ' != 1';
-      }
-    }
-    $sql .= ' AND ';
-  }
-  $sql = substr($sql, 0, -5);
+  $conn = connectDb();
+  $sql = 'SELECT * FROM ' . $tableName;
+  $sql .= sqlWhereAnd($data[$tableName]);
   if ($data[$tableName]['sort'] != 'n/a') {
     $sql .= ' ORDER BY ' . $data[$tableName]['sort']; 
   }
@@ -359,15 +363,9 @@ else if ($data[$tableName]['purpose'] == 'R') {
   //exit;
 
   $result = mysqli_query($conn, $sql);
-  $fieldCount = $result->field_count;
-  //echo $fieldCount;
-  for($x = 0; $x < $fieldCount; $x++) {
-    $finfo = $result->fetch_field_direct($x);
-    $dbCols[] = $finfo->name;
-    $dbType[] = $finfo->type;
-  }
-  $before = array('"');
-  $after = array('\"');
+  $fieldNames = getFieldNames($result);
+  $dbCols = $fieldNames['dbCols'];
+  $dbType = $fieldNames['dbType'];
   $jsonStr = '{"' . $tableName . '": [';
   if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
@@ -376,7 +374,7 @@ else if ($data[$tableName]['purpose'] == 'R') {
           $jsonStr .= '"' . $dbCols[$x] . '": ';
           if ($dbType[$x] == 253) {
             //echo 'String Data Type'; // OK
-            $jsonStr .= '"' . str_replace($before, $after, $row[$dbCols[$x]]) . '"';
+            $jsonStr .= '"' . str_replace($strOrig, $strEsc, $row[$dbCols[$x]]) . '"';
           }
           else if ($dbType[$x] == 3 || $dbType[$x] == 246 || $dbType[$x] == 4 || $dbType[$x] == 5) {
             //echo 'Number Data Type (JS Exercise)'; // OK
@@ -413,11 +411,83 @@ else if ($data[$tableName]['purpose'] == 'R') {
     $debugD .= "No matching results. ";
   }
   $jsonStr .= ']}';
-  returnJson($dbPhpRev, $aok, $jsonStr, mysqli_num_rows($result), $data[$tableName]['startVal'], $data[$tableName]['pageSize'], $data[$tableName]['debug'], $debugD, $strOrig, $strEsc, $sql, $data[$tableName]['sort'], $timeZone);
+  returnJson($jsonStr, mysqli_num_rows($result), $debugD, $sql);
   $conn->close();
 }  
-  
-function returnJson($dbPhpRev, $aok, $jsonStr, $rows, $startVal, $pageSize, $debug, $debugD, $strOrig, $strEsc, $sql, $sort, $timeZone) {
+
+
+else if ($data[$tableName]['purpose'] == 'D') {
+  //echo 'Delete Records';
+  $conn = connectDb();
+  //"DELETE FROM MyGuests WHERE id=3";
+  $sql = 'DELETE FROM ' . $tableName;
+  $sql .= sqlWhereAnd($data[$tableName]);
+  //echo $sql;
+  //exit;
+  if ($conn->query($sql) === TRUE) {
+    $debugD .= 'Deleted record(s) from ' . $tableName . ' successfully. ';
+    $aok = true;
+  } else {
+    $debugD .= 'Error deleting record(s) from ' . $tableName . ': ' . $conn->error . '. ';
+    //$aok = false;
+  }
+  returnJson('{}', 0, $debugD, $sql);
+  $conn->close();
+}  
+
+
+else {
+  returnJson('{}', 0, 'Nothing to do ... :', 'n/a');
+}
+
+// FUNCTIONS:
+// ==========
+function getFieldNames($result) {
+  $fieldCount = $result->field_count;
+  for($x = 0; $x < $fieldCount; $x++) {
+    $finfo = $result->fetch_field_direct($x);
+    $dbCols[] = $finfo->name;
+    $dbType[] = $finfo->type;
+  }
+  return array('dbCols'=>$dbCols, 'dbType'=>$dbType);
+}
+
+function sqlWhereAnd($data) {
+  //print_r($data['data']);
+  $sql =  ' WHERE ';
+  foreach($data['data'] as $x) {
+    //echo $x['colName'] . $x['search'] . $x['dataType'];
+    if ($x['dataType'] == 'String') {
+      if ($x['strict'] == 1) {
+        $sql .= $x['colName'] . ' LIKE "' . $x['search'] . '"';
+      } else {
+        $sql .= $x['colName'] . ' LIKE "%' . $x['search'] . '%"';
+      }
+    }
+    else if ($x['dataType'] == 'Number') {
+      $sql .= $x['colName'] . ' = ' . $x['search'];
+    }
+    else if ($x['dataType'] == 'Boolean') {
+      if ($x['search'] == 1) {
+        $sql .= $x['colName'] . ' = 1';
+      } else {
+        $sql .= $x['colName'] . ' != 1';
+      }
+    }
+    $sql .= ' AND ';
+  }
+  return substr($sql, 0, -5);
+}
+
+function connectDb(){
+  global $config;
+  $conn = mysqli_connect($config['dbServer'], $config['dbUserName'], $config['dbPassWord'], $config['dbName']);
+  if (!$conn) {die("Connection failed: " . mysqli_connect_error());}
+  return $conn;
+}
+
+function returnJson($jsonStr, $rows, $debugD, $sql) {
+  global $aok, $data, $dbPhpRev, $strOrig, $strEsc, $tableName;
   $rtnStr = '{"aok": ';
   if ($aok == true) {
     $rtnStr .= 'true, ';
@@ -425,24 +495,19 @@ function returnJson($dbPhpRev, $aok, $jsonStr, $rows, $startVal, $pageSize, $deb
   else {
     $rtnStr .= 'false, ';
   }
-  if ($debug == 1) {
+  if ($data[$tableName]['debug'] == 1) {
     $rtnStr .= '"sql": "' . str_replace($strOrig, $strEsc, $sql) . '", ';
     $rtnStr .= '"debug": "' . str_replace($strOrig, $strEsc, trim($debugD)) . '", ';
-    $rtnStr .= '"sort": "' . $sort . '", ';
-    $rtnStr .= '"date": "' . $sort . '", ';
+    $rtnStr .= '"sort": "' . $data[$tableName]['sort'] . '", ';
     $rtnStr .= '"dbPhpRev": "' . $dbPhpRev. '", ';
-    date_default_timezone_set($timeZone);
+    date_default_timezone_set($data[$tableName]['timeZone']);
     $timeStamp = time();
     $rtnStr .= '"localTime": "' . date('H:i:s d.m.Y', $timeStamp). '", ';
   }
   $rtnStr .= '"data": ' . $jsonStr . ', ';
-  $rtnStr .= '"startVal": ' . $startVal . ', ';
-  $rtnStr .= '"pageSize": ' . $pageSize . ', ';
+  $rtnStr .= '"startVal": ' . $data[$tableName]['startVal'] . ', ';
+  $rtnStr .= '"pageSize": ' . $data[$tableName]['pageSize'] . ', ';
   $rtnStr .= '"rows": ' . $rows . '}';
   echo $rtnStr;
 }
-
-
-  
-  
 ?>

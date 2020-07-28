@@ -8,13 +8,14 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
     if (strpos($myPage, '/index.php') || strpos($myPage, '.htm')) {
-      echo '<script>console.log(\'My Root: ' . $myRoot . '\');</script>';
-      //date_default_timezone_set('Europe/Dublin');
-      $timeStamp = time();
-      $loadDate = date('d.m.Y', $timeStamp);
-      $loadTime = date('H:i:s', $timeStamp);
-      echo '<script>console.log(\'Server Time: ' . $loadTime . ' ' . $loadDate . '\');</script>';
       if (strpos($myPage, '/index.php')) {
+        echo '<script>console.log(\'My Root: ' . $myRoot . '\');</script>';
+        echo '<script>console.log(\'script.php Rev 0.2\');</script>';
+        //date_default_timezone_set('Europe/Dublin');
+        $timeStamp = time();
+        $loadDate = date('d.m.Y', $timeStamp);
+        $loadTime = date('H:i:s', $timeStamp);
+        echo '<script>console.log(\'Server Time: ' . $loadTime . ' ' . $loadDate . '\');</script>';
         echo '<script>console.log(\'' . $myPage . ' loaded [HOME]\');</script>';
       }
       else {
@@ -29,6 +30,10 @@
     } 
     else if (strpos($myPage, '.js.')) {
       echo 'console.log(\'' . $myPage . ' loaded [JS]\');';
+    }
+    else if (strpos($myPage, '.css.')) {
+      echo '/* ' . $myPage . ' loaded [CSS] */';
+      //echo '\r\n';
     }
   }
   else {

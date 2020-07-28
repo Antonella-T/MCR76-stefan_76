@@ -13,6 +13,8 @@
   require  $myRoot . 'mcr76_hidden/script.php';
   
   $data = json_decode($_POST['data'], true);
+  //print_r($data);
+  //exit;
   $tableName = array_keys($data)[0];
 
 if ($config['myRoot'] != '/home/' . $data[$tableName]['apiKey'] . '/') {
@@ -23,7 +25,7 @@ if ($config['myRoot'] != '/home/' . $data[$tableName]['apiKey'] . '/') {
   $timeZone = $data[$tableName]['timeZone'];
   //echo $timeZone;
   $debugD = '';
-  $dbPhpRev = '0.3';
+  $dbPhpRev = '0.4';
   $strOrig = array('"');
   $strEsc = array('\"');
   $aok = false;
@@ -416,10 +418,52 @@ else if ($data[$tableName]['purpose'] == 'R') {
 }  
 
 
+else if ($data[$tableName]['purpose'] == 'U') {
+  //echo 'Update Records';
+//UPDATE table_name
+//SET column1=value, column2=value2,...
+//WHERE some_column=some_value 
+  $conn = connectDb();
+  $sql = 'UPDATE ' . $tableName .' SET ';
+  foreach($data[$tableName]['data'] as $x) {
+    if ($x['update']) {
+      $sql .= $x['colName'] . ' = ';
+      if ($x['dataType'] == 'String') {
+        $sql .= '"' . $x['new'] . '"';
+      }
+      else if ($x['dataType'] == 'Number') {
+        $sql .= $x['new'];
+      }
+      else if ($x['dataType'] == 'Boolean') {
+        if ($x['new'] == 1) {
+          $sql .= '1';
+        } else {
+          $sql .= '0';
+        }
+      }
+      $sql .= ', ';
+    }
+
+  }
+  $sql = substr($sql, 0, -2) . ' ';
+  $sql .= sqlWhereAnd($data[$tableName]);
+  //echo $sql;
+  //exit;
+  if ($conn->query($sql) === TRUE) {
+    $debugD .= 'Updated record(s) from ' . $tableName . ' successfully. ';
+    $aok = true;
+  } else {
+    $debugD .= 'Error updating record(s) from ' . $tableName . ': ' . $conn->error . '. ';
+    //$aok = false;
+  }
+  returnJson('{}', 0, $debugD, $sql);
+  $conn->close();
+} 
+
+
 else if ($data[$tableName]['purpose'] == 'D') {
   //echo 'Delete Records';
   $conn = connectDb();
-  //"DELETE FROM MyGuests WHERE id=3";
   $sql = 'DELETE FROM ' . $tableName;
   $sql .= sqlWhereAnd($data[$tableName]);
   //echo $sql;
@@ -440,8 +484,10 @@ else {
   returnJson('{}', 0, 'Nothing to do ... :', 'n/a');
 }
 
+
 // FUNCTIONS:
 // ==========
+
 function getFieldNames($result) {
   $fieldCount = $result->field_count;
   for($x = 0; $x < $fieldCount; $x++) {
@@ -454,27 +500,32 @@ function getFieldNames($result) {
 
 function sqlWhereAnd($data) {
   //print_r($data['data']);
+  //echo sizeof($data['data']);
+  if (sizeof($data['data']) === 0) {return '';}
+  //exit;
   $sql =  ' WHERE ';
   foreach($data['data'] as $x) {
     //echo $x['colName'] . $x['search'] . $x['dataType'];
-    if ($x['dataType'] == 'String') {
-      if ($x['strict'] == 1) {
-        $sql .= $x['colName'] . ' LIKE "' . $x['search'] . '"';
-      } else {
-        $sql .= $x['colName'] . ' LIKE "%' . $x['search'] . '%"';
+    if ($data['purpose'] == 'D' || $data['purpose'] == 'R' || ($data['purpose'] == 'U' && $x['useForSearch'])) {
+      if ($x['dataType'] == 'String') {
+        if ($x['strict'] == 1) {
+          $sql .= $x['colName'] . ' LIKE "' . $x['search'] . '"';
+        } else {
+          $sql .= $x['colName'] . ' LIKE "%' . $x['search'] . '%"';
+        }
       }
-    }
-    else if ($x['dataType'] == 'Number') {
-      $sql .= $x['colName'] . ' = ' . $x['search'];
-    }
-    else if ($x['dataType'] == 'Boolean') {
-      if ($x['search'] == 1) {
-        $sql .= $x['colName'] . ' = 1';
-      } else {
-        $sql .= $x['colName'] . ' != 1';
+      else if ($x['dataType'] == 'Number') {
+        $sql .= $x['colName'] . ' = ' . $x['search'];
       }
+      else if ($x['dataType'] == 'Boolean') {
+        if ($x['search'] == true) {
+          $sql .= $x['colName'] . ' = 1';
+        } else {
+          $sql .= $x['colName'] . ' != 1';
+        }
+      }
+      $sql .= ' AND ';
     }
-    $sql .= ' AND ';
   }
   return substr($sql, 0, -5);
 }

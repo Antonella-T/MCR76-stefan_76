@@ -4,6 +4,7 @@
   require  $myRoot . 'mcr76_hidden/script.php';
   header('Content-Type: application/javascript');
 ?>
+console.log('JavaScript File Rev 0.4');
 //console.log('Hello World!');
 
 /* purpose values for data rows: C = create, R = read, U = update, D = delete (CRUD)
@@ -21,7 +22,7 @@ $(document).ready(function(){
     dataString = JSON.stringify(createDbTable);
     $.post("db.php", {"data": dataString},
     function(data,status){
-      console.log(data + "\nStatus: " + status);
+      //console.log(data + "\nStatus: " + status);
       console.log(JSON.parse(data), "\nStatus: " + status);
     });
   }
@@ -176,13 +177,13 @@ var dataAddCol = {"fruits": {"apiKey": apiKey,
             "sort": "n/a",
             "startVal": -1,
             "pageSize": -1,
-            "data": [{"colName":"texture",
+            "data": [{"colName":"comments",
                       "unique": false,
                       "dataType":"String",
-                      "dataLength": 12},
-                     {"colName":"juicy",
+                      "dataLength": 255},
+                     {"colName":"price",
                       "unique": false,
-                      "dataType":"Boolean",
+                      "dataType":"Number",
                       "dataLength": 1}
                     ]
            }};           
@@ -286,43 +287,43 @@ function updateRecord() {
             "timeZone": clientTimeZone,
             "purpose": "U",
             "debug": true,
-            "sort": "fruit ASC",
+            "sort": "n/a",
             "startVal": -1,
             "pageSize": -1,
             "data": [{"colName": "id",
                       "search": $('#updateSearchId').val(),
-                      "strict": false,
+                      "strict": true,
                       "useForSearch": true,
-                      "new": $('#updateId').val(),
+                      "new": -1,
                       "update": false,
                       "dataType": "Number"},
                      {"colName": "fruit",
-                      "search": $('#updateSearchFruit').val(),
+                      "search": "",
                       "strict": false,
                       "useForSearch": false,
                       "new": $('#updateFruit').val(),
-                      "update": false,
+                      "update": true,
                       "dataType": "String"},
                      {"colName": "colour",
-                      "search": $('#updateSearchColour').val(),
+                      "search": "",
                       "strict": false,
                       "useForSearch": false,
                       "new": $('#updateColour').val(),
-                      "update": false,
+                      "update": true,
                       "dataType": "String"},
                      {"colName": "doILike",
-                      "search": $('#updateSearchDoILike').is(':checked'),
+                      "search": false,
                       "strict": false,
                       "useForSearch": false,
                       "new": $('#updateDoILike').is(':checked'),
-                      "update": false,
+                      "update": true,
                       "dataType": "Boolean"},
                      {"colName": "popularity",
-                      "search": $('#updateSearchPopularity').val(),
+                      "search": 0,
                       "strict": false,
                       "useForSearch": false,
                       "new": $('#updatePopularity').val(),
-                      "update": false,
+                      "update": true,
                       "dataType": "Number"}
                     ]
            }};
@@ -335,7 +336,7 @@ function deleteRecord() {
             "timeZone": clientTimeZone,
             "purpose": "D",
             "debug": true,
-            "sort": "fruit ASC",
+            "sort": "n/a",
             "startVal": -1,
             "pageSize": -1,
             "data": [{"colName": "id",
@@ -345,3 +346,133 @@ function deleteRecord() {
                     ]
            }};
 }
+
+
+var app = angular.module('myApp', []);
+            
+app.controller('myCtrl', function($scope, $http, $log) {
+    
+  //pre-define values for checkboxes and select to avoid 'undefined'
+  $scope.ngReadFruitStrict = false;
+  $scope.ngReadColourStrict = false;
+  $scope.ngReadDoILike = 'n/a';
+  
+  //Autosuggest default settings
+  $scope.showNgReadAutoSuggestions = false;
+  $scope.showNgReadAutoResults = false;
+
+  $scope.ngReadRecord= function() {
+    var data = [];
+    if ($scope.ngReadId) {
+      $log.info('Id is a search parameter');
+      data.push({"colName": "id",
+                      "search": $scope.ngReadId,
+                      "strict": false,
+                      "dataType": "Number"});
+    }
+    if ($scope.ngReadFruit) {
+      $log.info('Fruit is a search parameter');
+      data.push({"colName": "fruit",
+                      "search": $scope.ngReadFruit,
+                      "strict": $scope.ngReadFruitStrict,
+                      "dataType": "String"});
+    }
+    if ($scope.ngReadColour) {
+      $log.info('Colour is a search parameter');
+      data.push({"colName": "colour",
+                      "search": $scope.ngReadColour,
+                      "strict": $scope.ngReadColourStrict,
+                      "dataType": "String"});
+    }
+    if ($scope.ngReadPopularity) {
+      $log.info('Popularity is a search parameter');
+      data.push({"colName": "popularity",
+                      "search": $scope.ngReadPopularity,
+                      "strict": true,
+                      "dataType": "Number"});
+    }
+    if ($scope.ngReadDoILike != 'n/a') {
+      $log.info('DoILike is a search parameter');
+      data.push({"colName": "doILike",
+                      "search": $scope.ngReadDoILike,
+                      "strict": true,
+                      "dataType": "Boolean"});
+    }
+    $log.info(data);
+    var jsObj = {"fruits": {"apiKey": apiKey,
+                            "timeZone": clientTimeZone,
+                            "purpose": "R",
+                            "debug": true,
+                            "sort": "n/a",
+                            "startVal": -1,
+                            "pageSize": -1,
+                            "data": data}}
+    $log.info(jsObj);
+    var formData = 'data=' + JSON.stringify(jsObj);
+    $http({
+      url: 'db.php',
+      method: "POST",
+      data: formData,
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+    }).then(function (response) {
+        $log.info('Post Data Submitted Successfully!');
+        //$log.info(response);
+        //$log.info(response['data']);
+        $log.info(response.data, "\nStatus: " + response.status);
+        $scope.ngReadRecordData = response.data.data.fruits;
+    }, function (response) {
+        $log.info('status:', response.status);
+    });
+  };
+  $scope.ngReadAutoRecord = function() {
+    if ($scope.ngReadAuto.length >2) {
+      //$log.info('Auto Suggest: ', $scope.ngReadAuto);
+      if ($scope.showNgReadAutoSuggestions == false) {
+        $scope.showNgReadAutoResults = false;
+        $log.info('Will search DB for: ', $scope.ngReadAuto);
+        var data = [{"colName": "fruit",
+                      "search": $scope.ngReadAuto,
+                      "strict": false,
+                      "dataType": "String"}];
+        $log.info('data: ', data);
+    var jsObj = {"fruits": {"apiKey": apiKey,
+                            "timeZone": clientTimeZone,
+                            "purpose": "R",
+                            "debug": true,
+                            "sort": "n/a",
+                            "startVal": -1,
+                            "pageSize": -1,
+                            "data": data}}
+    $log.info(jsObj);
+    var formData = 'data=' + JSON.stringify(jsObj);
+    $http({
+      url: 'db.php',
+      method: "POST",
+      data: formData,
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+    }).then(function (response) {
+        $log.info('Post Data Submitted Successfully!');
+        //$log.info(response);
+        //$log.info(response['data']);
+        $log.info(response.data, "\nStatus: " + response.status);
+        $scope.ngReadAutoRecordData = response.data.data.fruits;
+    }, function (response) {
+        $log.info('status:', response.status);
+    });
+      }
+      //ngReadAutoRecordData
+      $scope.showNgReadAutoSuggestions = true;
+    }
+    else {
+      $scope.showNgReadAutoSuggestions = false;
+    }
+  };
+  
+  $scope.ngReadAutoShowDetails = function(row) {
+    $log.info('Displaying details: ', row);
+    $scope.showNgReadAutoSuggestions = false;
+    $scope.ngReadAuto = '';
+    $scope.showNgReadAutoResults = true;
+    $scope.ngReadAutoRecordDetails = row;
+  }
+});

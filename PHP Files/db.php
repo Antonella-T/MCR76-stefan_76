@@ -3,33 +3,56 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +                                                                              +
 +  This php file is part of our backend processing.                            +
-+  PHP scripting not covered in the Front End Web Developer Course             +
++  PHP scripting is not covered in the Front End Web Developer Course          +
++                                                                              +
++  NOTE:                                                                       +
++  Scripts in this file are provided for training purposes only and allow      +
++  server side operations that may be harmful and dangerous if used on         +
++  production servers. These operations must be password enabled, or           +
++  moved and executed on server side only.                                     +
 +                                                                              +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
+
 
   $myRoot = substr($_SERVER['DOCUMENT_ROOT'], 0, strpos($_SERVER['DOCUMENT_ROOT'], 'public_html'));
   $myPage = $_SERVER['PHP_SELF'];
   require  $myRoot . 'mcr76_hidden/script.php';
   
-  $data = json_decode($_POST['data'], true);
+  if (isset($_POST['data'])) {
+    $data = json_decode($_POST['data'], true);
+  }
+  else {
+    echo 'Authorization Required ...';
+    exit;
+  }
+
+
+  //print_r($_POST);
+  //print_r($_FILES);
   //print_r($data);
   //exit;
-  $tableName = array_keys($data)[0];
 
-if ($config['myRoot'] != '/home/' . $data[$tableName]['apiKey'] . '/') {
-  echo 'Authorization Required ...';
-  exit;
-}
+
+
+
+  $tableName = array_keys($data)[0];
 
   $timeZone = $data[$tableName]['timeZone'];
   //echo $timeZone;
   $debugD = '';
-  $dbPhpRev = '0.4';
+  $dbPhpRev = '0.5';
   $strOrig = array('"');
   $strEsc = array('\"');
   $aok = false;
-  
+
+if ($config['myRoot'] != '/home/' . $data[$tableName]['apiKey'] . '/') {
+  returnJson('{}', 0, 'Authorization Required ...', 'n/a');
+  //echo 'Authorization Required ...';
+  exit;
+}
+
+
 if ($data[$tableName]['purpose'] == 'CT') {
   //echo 'Create Table';
   $conn = connectDb();
@@ -420,9 +443,6 @@ else if ($data[$tableName]['purpose'] == 'R') {
 
 else if ($data[$tableName]['purpose'] == 'U') {
   //echo 'Update Records';
-//UPDATE table_name
-//SET column1=value, column2=value2,...
-//WHERE some_column=some_value 
   $conn = connectDb();
   $sql = 'UPDATE ' . $tableName .' SET ';
   foreach($data[$tableName]['data'] as $x) {
@@ -435,7 +455,8 @@ else if ($data[$tableName]['purpose'] == 'U') {
         $sql .= $x['new'];
       }
       else if ($x['dataType'] == 'Boolean') {
-        if ($x['new'] == 1) {
+        //if ($x['new'] == 1) {
+        if ($x['new'] == true) {
           $sql .= '1';
         } else {
           $sql .= '0';
@@ -477,12 +498,95 @@ else if ($data[$tableName]['purpose'] == 'D') {
   }
   returnJson('{}', 0, $debugD, $sql);
   $conn->close();
-}  
+}   
+
+else if ($data[$tableName]['purpose'] == 'FU') {
+  //echo 'File Upload';
+  $directory = $myRoot.$data[$tableName]['path'];
+  if (is_dir($directory) && move_uploaded_file($_FILES['file']['tmp_name'], $directory.$data[$tableName]['name'])) {
+    //echo '\$directory:' . $directory;
+    //print_r($_FILES);
+    //echo '\$_FILES[\'file\'][\'tmp_name\']:' . $_FILES['file']['tmp_name'];
+    $aok = true;
+    $debugD .= 'Uploaded ' . $data[$tableName]['name'] . ' into requested directory ' . $data[$tableName]['path'] . '. ';      
+  }
+  else {
+    $debugD .= 'Error uploading ' . $data[$tableName]['name'] . ' into requested directory ' . $data[$tableName]['path'] . '. ';    
+  }
+  returnJson('{}', 0, $debugD, 'n/a');
+}
+
+else if ($data[$tableName]['purpose'] == 'FL') {
+  //echo 'File Listings';
+  $directory = $myRoot.$data[$tableName]['path'];
+  $ignored = array('.', '..', '.svn', '.htaccess', 'config.json', 'script.php');
+  $files = array();
+  if (is_dir($directory)) {
+    foreach (scandir($directory) as $file) {
+      if (!in_array($file, $ignored) && !is_dir($file)) {
+        //$files[$file] = filemtime($directory . '/' . $file);
+        // NOT possible with default Reg365 2020 hosting setup ==> "fileMime": "' . mime_content_type($directory . '/' . $file) . '",
+        //$finfo = finfo_open(FILEINFO_MIME_TYPE);
+        //echo finfo_file($finfo, $directory . $file);
+        //finfo_close($finfo);
+        $files[] = '{"fileName": "' . $file . '",
+                     "fileSize": ' . filesize($directory . $file) . ',
+                     "fileMime": "' . mime_content_type($directory . $file) . '",
+                     "unixTime": ' . filemtime($directory . $file) . '}';
+      }
+    }
+    $rows = sizeof($files);
+    //print_r($files);
+    //exit;
+    $debugD .= 'Found the requested directory. ';
+    $jsonStr = '[' . implode(', ', $files) . ']';
+    $aok = true;
+    returnJson($jsonStr, $rows, $debugD, 'n/a');
+  }
+  else {
+    $debugD .= 'Invalid requested directory path. ';
+    returnJson('{}', 0, $debugD, 'n/a');
+  }
+}
+
+else if ($data[$tableName]['purpose'] == 'FD') {
+  //echo 'File Download';
+  $file = $myRoot.$data[$tableName]['path'] . $data[$tableName]['name'];
+  //$debugD .= 'This is not currently supported with the current Reg 365 PHP configuration. The source scripts need to be adapted to match the available configuration. DONE!';
+  if (file_exists($file)) {
+    $debugD .= 'Preparing download for ' . $file . ' ';
+    //echo '$file:' . $file;
+    $fileMime = mime_content_type($file);
+    $debugD .= '[' . $fileMime . ' ';
+    $fileSize = filesize($file);
+    $debugD .= ', ' . $fileMime . '] ';
+    $aok = true;
+    if (isset($_POST['submitting']) && $_POST['submitting'] == 'YES') {
+      header('Content-type: ' . $fileMime);
+      header('Content-Disposition: attachment; filename="' . $data[$tableName]['name'] . '"');
+      header('Content-Transfer-Encoding: binary');
+      header('Content-Length: ' . filesize($file));
+      header('Accept-Ranges: bytes');
+      @readfile($file);
+      exit;
+    }
+  }    
+  else {
+    $debugD .= 'Error preparing ' . $file . ' for download. ';    
+  }
+  returnJson('{}', 0, $debugD, 'n/a');
+}
+
 
 
 else {
   returnJson('{}', 0, 'Nothing to do ... :', 'n/a');
 }
+
+
+
+
+
 
 
 // FUNCTIONS:

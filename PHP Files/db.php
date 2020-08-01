@@ -41,7 +41,7 @@
   $timeZone = $data[$tableName]['timeZone'];
   //echo $timeZone;
   $debugD = '';
-  $dbPhpRev = '0.5';
+  $dbPhpRev = '0.6';
   $strOrig = array('"');
   $strEsc = array('\"');
   $aok = false;
@@ -397,8 +397,11 @@ else if ($data[$tableName]['purpose'] == 'R') {
       $jsonStr .= '{';
         for($x = 0; $x < sizeof($dbCols); $x++) {
           $jsonStr .= '"' . $dbCols[$x] . '": ';
-          if ($dbType[$x] == 253) {
-            //echo 'String Data Type'; // OK
+          if ($row[$dbCols[$x]] == null) {
+            $jsonStr .= 'null';
+          }
+          else if ($dbType[$x] == 253) {
+            //echo '\'$dbType[$x] == 253\' - String Data Type'; // OK
             $jsonStr .= '"' . str_replace($strOrig, $strEsc, $row[$dbCols[$x]]) . '"';
           }
           else if ($dbType[$x] == 3 || $dbType[$x] == 246 || $dbType[$x] == 4 || $dbType[$x] == 5) {
